@@ -1,0 +1,749 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>XINYI | Cours de chinois, culture et thé chinois</title>
+  <meta name="description" content="Cours de chinois pour adultes francophones, ateliers culturels et initiation au thé chinois avec XINYI.">
+  <style>
+    :root {
+      --paper: #f6f1e8;
+      --surface: #fffdf8;
+      --ink: #24231f;
+      --soft-ink: #4d4b43;
+      --muted: #746f63;
+      --line: #ddd2c1;
+      --jade: #315c50;
+      --jade-dark: #284d44;
+      --tea: #ad875b;
+      --mist: #eee6d8;
+      --shadow: 0 18px 42px rgba(38, 31, 22, .11);
+      --serif: Garamond, "Cormorant Garamond", Georgia, "Times New Roman", serif;
+      --sans: "Avenir Next", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: var(--sans);
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.62;
+      text-rendering: optimizeLegibility;
+    }
+    a { color: inherit; text-decoration: none; }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(246, 241, 232, .9);
+      backdrop-filter: blur(18px);
+      border-bottom: 1px solid rgba(221, 210, 193, .74);
+    }
+    .nav {
+      width: min(1080px, calc(100% - 36px));
+      min-height: 70px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+      min-width: 0;
+    }
+    .brand img {
+      width: 60px;
+      height: 44px;
+      object-fit: contain;
+      mix-blend-mode: multiply;
+    }
+    .brand-text { display: grid; line-height: 1.08; }
+    .brand-text strong {
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: .16em;
+    }
+    .brand-text span {
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: .04em;
+    }
+    .links {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      color: #4a473f;
+      font-size: 13px;
+    }
+    .links a { padding: 8px 0; }
+    .links a:hover { color: var(--jade); }
+
+    .button {
+      display: inline-flex;
+      min-height: 43px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 999px;
+      padding: 0 19px;
+      border: 1px solid var(--ink);
+      background: var(--ink);
+      color: var(--surface);
+      font-size: 14px;
+      font-weight: 650;
+      white-space: nowrap;
+      transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+    }
+    .button:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 12px 24px rgba(32, 33, 30, .14);
+    }
+    .button.secondary { background: transparent; color: var(--ink); }
+    .button.secondary.light { border-color: rgba(255,253,248,.68); color: var(--surface); }
+    .section-cta { margin-top: 26px; }
+
+    .section {
+      width: min(1080px, calc(100% - 36px));
+      margin: 0 auto;
+      padding: 72px 0;
+    }
+    .hero {
+      width: min(1080px, calc(100% - 36px));
+      min-height: calc(100vh - 70px);
+      margin: 0 auto;
+      padding: 42px 0 46px;
+      display: grid;
+      grid-template-columns: minmax(0, .92fr) minmax(360px, .78fr);
+      gap: 38px;
+      align-items: center;
+    }
+    .hero > * { min-width: 0; }
+    .eyebrow, .section-kicker {
+      margin: 0 0 15px;
+      color: var(--jade);
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+    }
+    .section-kicker { color: var(--tea); }
+    h1, h2, h3 {
+      margin: 0;
+      letter-spacing: 0;
+      color: var(--ink);
+    }
+    h1 {
+      max-width: 640px;
+      font-family: var(--serif);
+      font-size: clamp(42px, 5.2vw, 68px);
+      font-weight: 500;
+      line-height: .98;
+    }
+    .tagline-zh {
+      display: block;
+      margin-bottom: 16px;
+      color: var(--jade);
+      font-family: "KaiTi", "STKaiti", "SimSun", serif;
+      font-size: clamp(24px, 2.8vw, 36px);
+      font-weight: 400;
+      line-height: 1.2;
+    }
+    .tagline-fr {
+      display: block;
+    }
+    h2 {
+      max-width: 720px;
+      font-family: var(--serif);
+      font-size: clamp(30px, 3.7vw, 46px);
+      font-weight: 500;
+      line-height: 1.08;
+    }
+    h3 {
+      font-size: 19px;
+      line-height: 1.22;
+      font-weight: 650;
+    }
+    .lead {
+      max-width: 620px;
+      margin: 22px 0 0;
+      color: var(--soft-ink);
+      font-size: clamp(17px, 1.5vw, 19px);
+      line-height: 1.68;
+    }
+    .microcopy {
+      max-width: 560px;
+      margin-top: 15px;
+      color: var(--muted);
+      font-size: 14.5px;
+    }
+    .cta-row {
+      margin-top: 28px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+    }
+    .hero-media {
+      width: 100%;
+      max-width: 100%;
+      aspect-ratio: 2 / 1;
+      border-radius: 4px;
+      overflow: hidden;
+      position: relative;
+      background: #efe7d9;
+      box-shadow: var(--shadow);
+    }
+    .hero-media img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      background: #efe7d9;
+    }
+    .hero-media::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(180deg, rgba(246, 241, 232, .05) 42%, rgba(32, 33, 30, .18)),
+        linear-gradient(90deg, rgba(246, 241, 232, .28), transparent 46%);
+      pointer-events: none;
+    }
+    .hero-quote {
+      position: absolute;
+      left: clamp(52px, 8vw, 88px);
+      right: clamp(32px, 6vw, 64px);
+      top: 54%;
+      transform: translateY(-50%) rotate(-1.8deg);
+      z-index: 1;
+      color: rgba(31, 29, 24, .76);
+      mix-blend-mode: multiply;
+      opacity: .88;
+      pointer-events: none;
+    }
+    .hero-quote .zh {
+      display: block;
+      font-family: "KaiTi", "STKaiti", "SimSun", serif;
+      font-size: clamp(18px, 2.2vw, 27px);
+      line-height: 1.18;
+      white-space: nowrap;
+      font-weight: 400;
+    }
+    .hero-quote .fr {
+      display: block;
+      max-width: 300px;
+      margin-top: 9px;
+      font-family: var(--serif);
+      font-size: clamp(14px, 1.35vw, 17px);
+      line-height: 1.18;
+      font-style: italic;
+      color: #3c3730;
+    }
+    .media-caption {
+      position: absolute;
+      left: 20px;
+      right: 20px;
+      bottom: 19px;
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      color: var(--surface);
+      font-size: 13px;
+      z-index: 1;
+      text-shadow: 0 1px 14px rgba(0, 0, 0, .28);
+    }
+
+    .stats {
+      width: min(1080px, calc(100% - 36px));
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+    .stat {
+      padding: 25px 22px;
+      border-right: 1px solid var(--line);
+    }
+    .stat:last-child { border-right: 0; }
+    .stat strong {
+      display: block;
+      color: var(--jade);
+      font-family: var(--serif);
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 1;
+    }
+    .stat span {
+      display: block;
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 13.5px;
+      line-height: 1.5;
+    }
+
+    .split {
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: 54px;
+      align-items: start;
+    }
+    .body-copy {
+      margin: 22px 0 0;
+      color: var(--soft-ink);
+      font-size: 16.5px;
+      line-height: 1.74;
+    }
+    .pill-list {
+      margin: 26px 0 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      list-style: none;
+    }
+    .pill-list li {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 7px 12px;
+      background: rgba(255, 253, 248, .52);
+      color: #4b473f;
+      font-size: 13px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+    .card {
+      min-height: 236px;
+      padding: 23px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: rgba(255, 253, 248, .72);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .card p {
+      margin: 15px 0 0;
+      color: var(--muted);
+      font-size: 14.5px;
+      line-height: 1.62;
+    }
+    .tag {
+      width: fit-content;
+      margin-top: 22px;
+      color: var(--jade);
+      font-size: 12.5px;
+      font-weight: 750;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+
+    .band { background: var(--jade-dark); color: var(--surface); }
+    .band .section { padding: 76px 0; }
+    .band h2 { color: var(--surface); max-width: 760px; }
+    .band .body-copy { color: rgba(255, 253, 248, .82); }
+    .experience-grid {
+      margin-top: 34px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1px;
+      background: rgba(255, 253, 248, .24);
+      border: 1px solid rgba(255, 253, 248, .24);
+    }
+    .experience {
+      min-height: 150px;
+      padding: 24px;
+      background: var(--jade-dark);
+    }
+    .experience h3 { color: var(--surface); }
+    .experience p {
+      margin: 11px 0 0;
+      color: rgba(255, 253, 248, .72);
+      font-size: 14.5px;
+      line-height: 1.6;
+    }
+
+    .resources {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px 22px;
+    }
+    .article {
+      padding: 21px 0;
+      border-top: 1px solid var(--line);
+    }
+    .article h3 {
+      max-width: 520px;
+      font-size: 18px;
+    }
+    .article p {
+      margin: 9px 0 0;
+      color: var(--muted);
+      font-size: 14.5px;
+      line-height: 1.58;
+    }
+
+    .contact {
+      display: grid;
+      grid-template-columns: .88fr 1.12fr;
+      gap: 44px;
+      align-items: start;
+      padding-bottom: 82px;
+    }
+    .email-link {
+      display: inline-block;
+      margin-top: 20px;
+      color: var(--jade);
+      font-size: 15px;
+      font-weight: 750;
+    }
+    form {
+      padding: 26px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: var(--surface);
+      box-shadow: 0 14px 34px rgba(40, 34, 25, .08);
+    }
+    label {
+      display: block;
+      margin-bottom: 7px;
+      color: #4b4b44;
+      font-weight: 700;
+      font-size: 13px;
+    }
+    input, select, textarea {
+      width: 100%;
+      min-height: 44px;
+      margin-bottom: 15px;
+      padding: 11px 12px;
+      border: 1px solid #d5cab8;
+      border-radius: 5px;
+      background: #fffefa;
+      color: var(--ink);
+      font: inherit;
+      font-size: 14px;
+    }
+    textarea { min-height: 112px; resize: vertical; }
+    input:focus, select:focus, textarea:focus {
+      outline: 2px solid rgba(49, 92, 80, .22);
+      border-color: var(--jade);
+    }
+    .form-note {
+      margin: 13px 0 0;
+      color: var(--muted);
+      font-size: 12.5px;
+    }
+
+    footer { border-top: 1px solid var(--line); color: var(--muted); }
+    .footer-inner {
+      width: min(1080px, calc(100% - 36px));
+      min-height: 76px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      font-size: 13px;
+    }
+
+    @media (max-width: 900px) {
+      .links { display: none; }
+      .hero, .split, .contact { grid-template-columns: 1fr; }
+      .hero { min-height: auto; gap: 30px; }
+      .hero-media { min-height: 0; }
+      .cards, .stats { grid-template-columns: 1fr; }
+      .stat { border-right: 0; border-bottom: 1px solid var(--line); }
+      .stat:last-child { border-bottom: 0; }
+    }
+    @media (max-width: 680px) {
+      .nav { min-height: 68px; }
+      .brand img { width: 54px; height: 40px; }
+      .brand-text span { display: none; }
+      .section { padding: 58px 0; }
+      .hero { padding-top: 34px; }
+      h1 { font-size: clamp(36px, 11vw, 48px); }
+      h2 { font-size: clamp(29px, 8vw, 38px); }
+      .hero-media { min-height: 0; }
+      .cta-row .button { width: 100%; }
+      .experience-grid, .resources { grid-template-columns: 1fr; }
+      .media-caption { left: 14px; right: 14px; bottom: 12px; font-size: 11px; }
+      .media-caption, .footer-inner { flex-direction: column; align-items: flex-start; }
+      form { padding: 21px; }
+    }
+
+  
+    .nav-trial, .nav-home {
+      display: inline-flex;
+      min-height: 34px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 999px;
+      padding: 0 13px !important;
+      font-weight: 750;
+    }
+    .nav-trial { background: var(--jade); color: var(--surface) !important; }
+    .nav-home { border: 1px solid var(--line); color: var(--jade) !important; }
+    .page-visual {
+      width: min(1080px, calc(100% - 36px));
+      margin: -20px auto 0;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 280px;
+      gap: 18px;
+      align-items: stretch;
+    }
+    .page-photo {
+      min-height: 220px;
+      border-radius: 6px;
+      overflow: hidden;
+      position: relative;
+      border: 1px solid var(--line);
+      background: var(--mist);
+      box-shadow: 0 16px 38px rgba(40, 34, 25, .08);
+    }
+    .page-photo img {
+      width: 100%;
+      height: 100%;
+      min-height: 220px;
+      display: block;
+      object-fit: cover;
+    }
+    .visual-note {
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: rgba(255, 253, 248, .68);
+      color: var(--soft-ink);
+      font-family: var(--serif);
+      font-size: 22px;
+      line-height: 1.25;
+    }
+    .visual-note span {
+      display: block;
+      margin-top: 12px;
+      color: var(--muted);
+      font-family: var(--sans);
+      font-size: 12px;
+      font-weight: 750;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+    @media (max-width: 900px) {
+      .links { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; }
+      .links a:not(.nav-trial):not(.nav-home) { display: none; }
+      .nav { gap: 12px; }
+      .page-visual { grid-template-columns: 1fr; margin-top: 0; }
+      .visual-note { font-size: 20px; }
+    }
+    @media (max-width: 680px) {
+      body { padding-bottom: 0; }
+      .nav-trial, .nav-home { min-height: 32px; padding: 0 11px !important; font-size: 12px; }
+    }
+
+  
+    /* Vitalite sobre pour la version publique */
+    :root { --fresh: #168f86; --sun: #d8a348; --sky: #dfeeed; }
+    .button { box-shadow: 0 0 0 rgba(22, 143, 134, 0); }
+    .button:hover { box-shadow: 0 12px 24px rgba(22, 143, 134, .16); }
+    .button.secondary:hover { border-color: var(--fresh); color: var(--fresh); }
+    .section-kicker, .eyebrow { letter-spacing: .14em; }
+    .card, .format-item, .note-box, .hero-summary, .page-nav, form { box-shadow: 0 10px 28px rgba(38, 31, 22, .045); }
+    .card, .format-item, .experience, .resource-card { transition: transform .22s ease, border-color .22s ease, box-shadow .22s ease; }
+    .card:hover, .format-item:hover, .experience:hover, .resource-card:hover { transform: translateY(-2px); border-color: rgba(22, 143, 134, .34); box-shadow: 0 16px 34px rgba(38, 31, 22, .08); }
+    .page-photo::after, .hero-media::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(22, 143, 134, .12), transparent 42%, rgba(216, 163, 72, .10));
+      pointer-events: none;
+      mix-blend-mode: soft-light;
+    }
+    .page-photo, .hero-media { position: relative; }
+    .about-panel, .detail-panel, .legal-panel {
+      border: 1px solid var(--line);
+      background: linear-gradient(135deg, rgba(255,253,248,.88), rgba(223,238,237,.54));
+      border-radius: 8px;
+      padding: 28px;
+      box-shadow: 0 14px 34px rgba(38, 31, 22, .06);
+    }
+    .identity-grid, .detail-grid, .legal-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 22px;
+    }
+    .identity-card, .detail-card, .legal-card {
+      border: 1px solid rgba(221, 210, 193, .86);
+      background: rgba(255,253,248,.72);
+      border-radius: 7px;
+      padding: 18px;
+    }
+    .identity-card strong, .detail-card strong, .legal-card strong { display: block; margin-bottom: 8px; color: var(--jade); }
+    .identity-card p, .detail-card p, .legal-card p { margin: 0; color: var(--soft-ink); font-size: 15px; line-height: 1.65; }
+    .step-list { counter-reset: step; display: grid; gap: 12px; margin-top: 22px; padding: 0; }
+    .step-list li { list-style: none; position: relative; padding: 16px 16px 16px 54px; border: 1px solid var(--line); background: rgba(255,253,248,.64); border-radius: 7px; }
+    .step-list li::before { counter-increment: step; content: counter(step); position: absolute; left: 16px; top: 15px; width: 24px; height: 24px; border-radius: 50%; display: grid; place-items: center; background: var(--fresh); color: white; font-size: 12px; font-weight: 700; }
+    .footer-inner { gap: 16px; }
+    .footer-links { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+    .footer-links a { color: var(--jade); font-weight: 650; }
+    @media (max-width: 780px) { .identity-grid, .detail-grid, .legal-grid { grid-template-columns: 1fr; } .about-panel, .detail-panel, .legal-panel { padding: 22px; } }
+
+  
+    /* Mise en page des pages internes */
+    .page-hero { width: min(1080px, calc(100% - 36px)); margin: 0 auto; padding: 82px 0 54px; border-bottom: 1px solid var(--line); display: grid; grid-template-columns: minmax(0, 1fr) minmax(300px, .46fr); gap: 34px; align-items: stretch; }
+    .page-hero-main { min-width: 0; }
+    .hero-summary { border: 1px solid var(--line); background: rgba(255,253,248,.72); border-radius: 8px; padding: 24px; display: flex; flex-direction: column; justify-content: space-between; gap: 22px; }
+    .summary-kicker { margin: 0 0 14px; color: var(--tea); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .14em; }
+    .summary-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 13px; }
+    .summary-list li { display: grid; gap: 2px; padding-bottom: 12px; border-bottom: 1px solid rgba(221,210,193,.7); }
+    .summary-list li:last-child { border-bottom: 0; padding-bottom: 0; }
+    .summary-list span { color: var(--muted); font-size: 12px; }
+    .summary-list strong { color: var(--ink); font-size: 14px; line-height: 1.35; }
+    .summary-note { margin: 0; color: var(--soft-ink); font-family: var(--serif); font-size: 19px; line-height: 1.35; }
+    @media (max-width: 900px) { .page-hero { grid-template-columns: 1fr; padding-top: 52px; } }
+
+  
+    /* Navigation repensee pour un site personnel de cours */
+    .nav { width: min(1180px, calc(100% - 44px)); gap: 20px; }
+    .brand { flex: 0 0 auto; }
+    .links { gap: clamp(10px, 1.25vw, 17px); font-size: 13px; justify-content: flex-end; flex-wrap: nowrap; }
+    .links a { position: relative; padding: 9px 0; white-space: nowrap; }
+    .links a[aria-current="page"] { color: var(--jade); font-weight: 700; }
+    .links a[aria-current="page"]::after { content: ""; position: absolute; left: 0; right: 0; bottom: 3px; height: 2px; background: var(--fresh, var(--jade)); border-radius: 999px; }
+    .links .nav-home { border: 0; color: var(--muted) !important; }
+    .links .nav-trial { padding: 8px 14px; border-radius: 999px; background: var(--jade); color: var(--surface) !important; box-shadow: 0 10px 22px rgba(49, 92, 80, .16); }
+    .links .nav-trial::after { display: none; }
+    @media (max-width: 1040px) { .brand-text span { display: none; } .links { gap: 10px; font-size: 12.5px; } .links .nav-trial { padding-inline: 12px; } }
+    @media (max-width: 760px) { .nav { width: min(100% - 28px, 1180px); min-height: 64px; } .links a:not(.nav-trial):not(.nav-home) { display: none; } .links { margin-left: auto; } .links .nav-home { display: inline-flex; } }
+
+  
+    /* Lecture confortable des pages de contenu */
+    .page-layout { width: min(1080px, calc(100% - 44px)); margin: 0 auto; padding: 66px 0 84px; display: grid; grid-template-columns: 210px minmax(0, 1fr); gap: clamp(34px, 5vw, 64px); align-items: start; }
+    .page-layout > div { min-width: 0; }
+    .page-nav { position: sticky; top: 96px; display: grid; gap: 8px; padding: 16px; border: 1px solid var(--line); background: rgba(255, 253, 248, .72); border-radius: 8px; }
+    .page-nav a { color: var(--soft-ink); font-size: 14px; line-height: 1.35; padding: 7px 8px; border-radius: 6px; }
+    .page-nav a:hover { color: var(--jade); background: rgba(223, 238, 237, .58); }
+    .page-entry { padding: 42px 0; border-bottom: 1px solid var(--line); }
+    .page-entry:first-child { padding-top: 0; }
+    .page-entry:last-child { border-bottom: 0; }
+    .page-entry h2 { max-width: 760px; font-size: clamp(28px, 3vw, 40px); }
+    .page-entry p, .page-entry li { max-width: 760px; color: var(--soft-ink); font-size: 16px; line-height: 1.78; }
+    .page-entry ul { margin: 16px 0 0; padding-left: 20px; }
+    @media (max-width: 900px) { .page-layout { grid-template-columns: 1fr; width: min(100% - 32px, 1080px); padding-top: 42px; } .page-nav { position: static; grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (max-width: 560px) { .page-nav { grid-template-columns: 1fr; } }
+
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <nav class="nav" aria-label="Navigation principale">
+      <a class="brand" href="#accueil" aria-label="Retour à l'accueil XINYI">
+        <img src="assets/xinyi-logo.png" alt="XINYI Langues Cultures Thé">
+        <span class="brand-text"><strong>XINYI</strong><span>Langues · Cultures · Thé</span></span>
+      </a>
+      <div class="links"><a class="nav-home" href="index.html#accueil" aria-current="page">Accueil</a><a href="qui-suis-je.html">Qui suis-je</a><a href="cours.html">Cours</a><a href="approche.html">Approche</a><a href="ressources.html">Ressources</a><a href="the-chinois.html">Thé chinois</a><a href="contact.html">Contact</a><a class="nav-trial" href="contact.html">Essai gratuit</a></div>
+    </nav>
+  </header>
+
+  <main id="accueil">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Chinois pour adultes francophones · 中文 · culture · thé</p>
+        <h1><span class="tagline-zh">中文，从一句话开始。</span><span class="tagline-fr">Parlez le chinois, tutoyez un monde.</span></h1>
+        <p class="lead">Avec XINYI, le chinois devient une rencontre vivante : une langue que l’on apprivoise pas à pas, une culture que l’on découvre par les mots, les gestes et le thé.</p>
+        <p class="microcopy">Cours individuels, petits groupes et ateliers autour du thé chinois, en ligne ou en présentiel selon les projets.</p>
+        <div class="cta-row"><a class="button" href="contact.html">Me parler de votre projet</a><a class="button secondary" href="cours.html">Découvrir les formats</a></div>
+      </div>
+      <div class="hero-media" role="img" aria-label="Papier, stylo et tasse de thé près d’une fenêtre">
+        <img src="assets/hero-xinyi-blank-paper.png" alt="" aria-hidden="true">
+        <div class="hero-quote" aria-hidden="true"><span class="zh">中文，从一句话开始。</span><span class="fr">Apprendre le chinois, tutoyer un monde.</span></div>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Points forts">
+      <div class="stat"><strong>01</strong><span>Une méthode progressive pour adultes : claire, rassurante et adaptée à votre rythme.</span></div>
+      <div class="stat"><strong>02</strong><span>Des situations utiles : voyager, échanger, travailler, comprendre les codes culturels.</span></div>
+      <div class="stat"><strong>03</strong><span>Une porte d'entrée originale : apprendre aussi par le thé, les gestes et les histoires.</span></div>
+    </section>
+
+    <section id="approche" class="section split">
+      <div><p class="section-kicker">Mon approche</p><h2>Apprendre sérieusement, sans perdre le plaisir.</h2></div>
+      <div>
+        <p class="body-copy">Le chinois impressionne souvent : les tons, les caractères, une logique différente du français. Mon rôle est de rendre ce chemin lisible. On avance étape par étape, avec des explications simples, de la pratique orale et des repères culturels concrets.</p>
+        <p class="body-copy">Vous ne venez pas seulement apprendre des listes de mots. Vous apprenez à entrer dans une autre façon de dire, de penser et de créer du lien. C'est la promesse de XINYI : faire passer la langue par l'expérience.</p>
+        <ul class="pill-list" aria-label="Thèmes d'apprentissage"><li>Prononciation et tons</li><li>Conversation utile</li><li>Caractères chinois</li><li>Culture et étiquette</li><li>Ressources personnalisées</li><li>Ateliers thé</li></ul><div class="cta-row section-cta"><a class="button secondary" href="approche.html">Découvrir l'approche</a></div>
+      </div>
+    </section>
+
+
+    <section id="rencontrer" class="section">
+      <div class="about-panel">
+        <div class="split" style="align-items: center;">
+          <div>
+            <p class="section-kicker">Qui suis-je</p>
+            <h2>Une présence claire pour vous guider dans le chinois.</h2>
+          </div>
+          <div>
+            <p class="body-copy">Je suis Sophie Zhong, créatrice de XINYI. J'aide les adultes francophones à entrer dans le chinois par une méthode progressive, vivante et attentive aux ponts entre les cultures.</p>
+            <div class="cta-row"><a class="button secondary" href="qui-suis-je.html">Faire connaissance</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cours" class="section">
+      <div class="split"><div><p class="section-kicker">Cours</p><h2>Des formats souples pour commencer ou reprendre confiance.</h2></div><p class="body-copy">Chaque parcours peut être adapté à votre niveau, à votre disponibilité et à votre objectif : curiosité personnelle, voyage, projet professionnel, famille, expatriation ou culture chinoise.</p></div>
+      <div class="cards" style="margin-top: 34px;">
+        <article class="card"><div><h3>Chinois débutant</h3><p>Pour poser de bonnes bases : sons, tons, pinyin, phrases essentielles, premiers caractères et méthode de travail.</p></div><span class="tag">Idéal pour commencer</span></article>
+        <article class="card"><div><h3>Conversation & situations réelles</h3><p>Pour oser parler dans des contextes concrets : se présenter, commander, voyager, échanger avec des proches ou des collègues.</p></div><span class="tag">Pratique orale</span></article>
+        <article class="card"><div><h3>Culture chinoise en français ou en chinois</h3><p>Pour comprendre les usages, les fêtes, les formules de politesse, les récits et les nuances qui manquent souvent dans les manuels.</p></div><span class="tag">Langue + culture</span></article>
+      </div><div class="cta-row section-cta"><a class="button secondary" href="cours.html">Voir les cours</a></div>
+    </section>
+
+    <section id="the" class="band"><div class="section"><p class="section-kicker" style="color: rgba(255,253,248,.72);">Expérience culturelle</p><h2>Le thé chinois : une façon sensible d'entrer dans la langue.</h2><p class="body-copy">Autour d'une tasse de thé, les mots deviennent concrets : les objets, les gestes, les parfums, les sensations, l'hospitalité. Ces ateliers s'adressent aux particuliers, petits groupes, associations et structures culturelles.</p><div class="experience-grid"><article class="experience"><h3>Initiation au thé chinois</h3><p>Découvrir les grandes familles de thés, les gestes essentiels et le vocabulaire de base.</p></article><article class="experience"><h3>Thé & conversation</h3><p>Pratiquer un chinois simple dans un cadre calme, vivant et convivial.</p></article><article class="experience"><h3>Atelier culturel</h3><p>Un format sur mesure pour médiathèques, associations, entreprises ou événements.</p></article><article class="experience"><h3>Parcours XINYI</h3><p>Associer cours de langue, ressources personnalisées et expérience culturelle autour du thé.</p></article></div><div class="cta-row section-cta"><a class="button secondary light" href="the-chinois.html">Explorer les ateliers</a></div></div></section>
+
+    <section id="ressources" class="section"><div class="split"><div><p class="section-kicker">Ressources</p><h2>Des ressources pour prolonger l'apprentissage.</h2></div><div><p class="body-copy">Méthodes, conseils pour adultes, pistes de mémorisation, culture chinoise et notes autour du thé : je rassemble ces contenus dans une page dédiée, pensée comme un carnet de route pour apprendre entre deux cours.</p><div class="cta-row"><a class="button secondary" href="ressources.html">Explorer les ressources</a></div></div></div></section>
+
+    <section id="contact" class="section contact"><div><p class="section-kicker">Contact</p><h2>Vous voulez apprendre le chinois autrement ?</h2><p class="body-copy">Écrivez-moi quelques lignes sur votre niveau, vos envies et ce que vous aimeriez pouvoir faire en chinois. Je vous répondrai avec une proposition simple : premier échange, cours d'essai ou atelier adapté.</p><a class="email-link" href="mailto:zhongxinyisophie@gmail.com">zhongxinyisophie@gmail.com</a><div class="cta-row section-cta"><a class="button secondary" href="contact.html">Me contacter</a></div><ul class="pill-list"><li>Cours en ligne</li><li>Présentiel selon disponibilités</li><li>Adultes et petits groupes</li></ul></div><form id="contactForm"><label for="name">Nom</label><input id="name" name="name" autocomplete="name" required><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required><label for="level">Votre niveau</label><select id="level" name="level"><option>Je débute complètement</option><option>J'ai déjà quelques bases</option><option>Je veux reprendre après une pause</option><option>Je suis intéressé(e) par un atelier culturel</option></select><label for="goal">Votre projet</label><textarea id="goal" name="goal" placeholder="Voyage, travail, famille, culture, conversation, thé chinois..."></textarea><button class="button" type="submit">Envoyer ma demande</button><p class="form-note">Le bouton ouvre Gmail avec un message prêt à envoyer. Vous pourrez le relire avant l'envoi.</p></form></section>
+  </main>
+
+  <footer><div class="footer-inner"><span>XINYI · Langues · Cultures · Thé</span><span class="footer-links"><a href="mentions-legales.html">Mentions légales</a><a href="contact.html">Contact</a></span></div></footer>
+  <script>
+    document.getElementById("contactForm").addEventListener("submit", function (event) {
+      event.preventDefault();
+      const data = new FormData(event.currentTarget);
+      const subject = "Demande de cours ou d'atelier XINYI";
+      const body = [
+        "Bonjour,",
+        "",
+        "Je souhaite avoir des informations sur vos cours / ateliers.",
+        "",
+        "Nom : " + (data.get("name") || ""),
+        "Email : " + (data.get("email") || ""),
+        "Niveau : " + (data.get("level") || ""),
+        "",
+        "Mon projet :",
+        data.get("goal") || "",
+        "",
+        "Merci,"
+      ].join("\n");
+      const url = "https://mail.google.com/mail/?view=cm&fs=1" +
+        "&to=" + encodeURIComponent("zhongxinyisophie@gmail.com") +
+        "&su=" + encodeURIComponent(subject) +
+        "&body=" + encodeURIComponent(body);
+      window.open(url, "_blank", "noopener");
+    });
+  </script>
+</body>
+</html>
