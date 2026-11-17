@@ -1,0 +1,123 @@
+{
+  "revision": 0,
+  "lessons": [
+    {
+      "id": "lecon-1",
+      "number": 1,
+      "title": "Les premiers sons",
+      "titleZh": "第一课 · 声音与问候",
+      "description": "Les quatre tons, le ton neutre et trois expressions pour les premières rencontres.",
+      "published": true,
+      "items": [
+        {
+          "id": "ma-1",
+          "kind": "tone",
+          "tone": 1,
+          "hanzi": "妈",
+          "pinyin": "mā",
+          "fr": "maman",
+          "note": "Un ton haut et stable. Gardez la même hauteur."
+        },
+        {
+          "id": "ma-2",
+          "kind": "tone",
+          "tone": 2,
+          "hanzi": "麻",
+          "pinyin": "má",
+          "fr": "chanvre",
+          "note": "Un ton montant. La voix part plus bas et monte."
+        },
+        {
+          "id": "ma-3",
+          "kind": "tone",
+          "tone": 3,
+          "hanzi": "马",
+          "pinyin": "mǎ",
+          "fr": "cheval",
+          "note": "Un ton bas, puis remontant quand on prononce la syllabe seule. En phrase, il reste souvent dans le grave."
+        },
+        {
+          "id": "ma-4",
+          "kind": "tone",
+          "tone": 4,
+          "hanzi": "骂",
+          "pinyin": "mà",
+          "fr": "gronder / insulter",
+          "note": "Un ton descendant. La voix commence plus haut et descend nettement."
+        },
+        {
+          "id": "mama",
+          "kind": "neutral",
+          "hanzi": "妈妈",
+          "pinyin": "māma",
+          "fr": "maman",
+          "note": "La deuxième syllabe ma est plus légère. Elle ne porte pas de marque de ton.",
+          "neutral": true
+        },
+        {
+          "id": "xiexie",
+          "kind": "greeting",
+          "hanzi": "谢谢",
+          "pinyin": "xièxie",
+          "fr": "merci",
+          "note": "Pour remercier quelqu’un, par exemple après un service. La deuxième syllabe xie est légère et sans marque de ton.",
+          "neutral": true
+        },
+        {
+          "id": "nihao",
+          "kind": "greeting",
+          "hanzi": "你好",
+          "pinyin": "nǐ hǎo",
+          "fr": "bonjour",
+          "note": "Pour saluer quelqu’un au début d’une rencontre. Le pinyin reste nǐ hǎo. Le premier troisième ton devient habituellement montant à l’oral."
+        },
+        {
+          "id": "zaijian",
+          "kind": "greeting",
+          "hanzi": "再见",
+          "pinyin": "zàijiàn",
+          "fr": "au revoir",
+          "note": "Pour prendre congé, à la fin d’une rencontre ou d’un appel."
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "scene-1",
+          "prompt": "Vous entrez dans la salle et vous saluez votre professeur.",
+          "answer": "nihao",
+          "explanation": "Vous commencez la rencontre : 你好 signifie bonjour."
+        },
+        {
+          "id": "scene-2",
+          "prompt": "Une personne vous prête un stylo. Que lui dites-vous ?",
+          "answer": "xiexie",
+          "explanation": "Vous remerciez la personne pour son aide : 谢谢."
+        },
+        {
+          "id": "scene-3",
+          "prompt": "Le cours se termine et vous quittez la salle.",
+          "answer": "zaijian",
+          "explanation": "Vous prenez congé : 再见 signifie au revoir."
+        },
+        {
+          "id": "scene-4",
+          "prompt": "Vous arrivez dans une boutique et vous saluez la vendeuse.",
+          "answer": "nihao",
+          "explanation": "Au début de cet échange, vous pouvez dire 你好."
+        },
+        {
+          "id": "scene-5",
+          "prompt": "Votre amie vous aide à porter votre sac.",
+          "answer": "xiexie",
+          "explanation": "Pour remercier votre amie de son aide, dites 谢谢."
+        },
+        {
+          "id": "scene-6",
+          "prompt": "Vous terminez un appel et vous dites au revoir.",
+          "answer": "zaijian",
+          "explanation": "À la fin de l’appel, vous pouvez dire 再见."
+        }
+      ]
+    }
+  ]
+}
