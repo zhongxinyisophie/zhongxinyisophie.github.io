@@ -1630,5 +1630,89 @@
   "lecon-3/zaijian": {
     "url": "audio/lecon-1/zaijian.mp3",
     "updatedAt": 1795209512074
+  },
+  "lecon-2/initial-b": {
+    "url": "audio/lecon-2/initial-b.mp3",
+    "updatedAt": 1795210275696
+  },
+  "lecon-2/initial-p": {
+    "url": "audio/lecon-2/initial-p.mp3",
+    "updatedAt": 1795210275806
+  },
+  "lecon-2/initial-m": {
+    "url": "audio/lecon-2/initial-m.mp3",
+    "updatedAt": 1795210275920
+  },
+  "lecon-2/initial-f": {
+    "url": "audio/lecon-2/initial-f.mp3",
+    "updatedAt": 1795210276034
+  },
+  "lecon-2/initial-d": {
+    "url": "audio/lecon-2/initial-d.mp3",
+    "updatedAt": 1795210276163
+  },
+  "lecon-2/initial-t": {
+    "url": "audio/lecon-2/initial-t.mp3",
+    "updatedAt": 1795210276287
+  },
+  "lecon-2/initial-n": {
+    "url": "audio/lecon-2/initial-n.mp3",
+    "updatedAt": 1795210276408
+  },
+  "lecon-2/initial-l": {
+    "url": "audio/lecon-2/initial-l.mp3",
+    "updatedAt": 1795210276525
+  },
+  "lecon-2/initial-g": {
+    "url": "audio/lecon-2/initial-g.mp3",
+    "updatedAt": 1795210276645
+  },
+  "lecon-2/initial-k": {
+    "url": "audio/lecon-2/initial-k.mp3",
+    "updatedAt": 1795210276753
+  },
+  "lecon-2/initial-h": {
+    "url": "audio/lecon-2/initial-h.mp3",
+    "updatedAt": 1795210276888
+  },
+  "lecon-2/initial-j": {
+    "url": "audio/lecon-2/initial-j.mp3",
+    "updatedAt": 1795210277014
+  },
+  "lecon-2/initial-q": {
+    "url": "audio/lecon-2/initial-q.mp3",
+    "updatedAt": 1795210277129
+  },
+  "lecon-2/initial-x": {
+    "url": "audio/lecon-2/initial-x.mp3",
+    "updatedAt": 1795210277246
+  },
+  "lecon-2/initial-zh": {
+    "url": "audio/lecon-2/initial-zh.mp3",
+    "updatedAt": 1795210277356
+  },
+  "lecon-2/initial-ch": {
+    "url": "audio/lecon-2/initial-ch.mp3",
+    "updatedAt": 1795210277490
+  },
+  "lecon-2/initial-sh": {
+    "url": "audio/lecon-2/initial-sh.mp3",
+    "updatedAt": 1795210277612
+  },
+  "lecon-2/initial-r": {
+    "url": "audio/lecon-2/initial-r.mp3",
+    "updatedAt": 1795210277742
+  },
+  "lecon-2/initial-z": {
+    "url": "audio/lecon-2/initial-z.mp3",
+    "updatedAt": 1795210277858
+  },
+  "lecon-2/initial-c": {
+    "url": "audio/lecon-2/initial-c.mp3",
+    "updatedAt": 1795210277981
+  },
+  "lecon-2/initial-s": {
+    "url": "audio/lecon-2/initial-s.mp3",
+    "updatedAt": 1795210278097
   }
 }

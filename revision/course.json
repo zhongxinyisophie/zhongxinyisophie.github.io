@@ -1,5 +1,5 @@
 {
-  "revision": 4,
+  "revision": 5,
   "lessons": [
     {
       "id": "lecon-1",
@@ -129,9 +129,9 @@
       "sections": [
         {
           "id": "groups",
-          "title": "Les trois groupes",
-          "heading": "Retrouver les initiales",
-          "description": "Lisez lentement. Ces associations reprennent notre travail en classe ; une initiale peut aussi se combiner avec d’autres finales.",
+          "title": "Son par son",
+          "heading": "Une syllabe à la fois",
+          "description": "Écoutez un son, répétez-le, puis enregistrez-vous. Chaque carte associe une initiale à une finale ; d’autres combinaisons existent.",
           "kinds": [
             "group"
           ]
@@ -164,28 +164,172 @@
       ],
       "items": [
         {
-          "id": "group-o",
+          "id": "initial-b",
           "kind": "group",
           "hanzi": "",
-          "pinyin": "bō · pō · mō · fō",
-          "fr": "b / p / m / f + o",
-          "note": "Une ligne d’entraînement. Gardez les lèvres arrondies ; la réalisation du o peut comporter une petite transition après ces initiales."
+          "pinyin": "bō",
+          "fr": "b + o",
+          "note": "Une syllabe d’entraînement : écoutez, puis répétez."
         },
         {
-          "id": "group-e",
+          "id": "initial-p",
           "kind": "group",
           "hanzi": "",
-          "pinyin": "dē · tē · nē · lē · gē · kē · hē",
-          "fr": "d / t / n / l / g / k / h + e",
-          "note": "Le e de cette série ne se lit pas comme le é français. Retrouvez le son travaillé avec Xinyi."
+          "pinyin": "pō",
+          "fr": "p + o",
+          "note": "Une syllabe d’entraînement : écoutez, puis répétez."
         },
         {
-          "id": "group-i",
+          "id": "initial-m",
           "kind": "group",
           "hanzi": "",
-          "pinyin": "jī · qī · xī · zhī · chī · shī · rī · zī · cī · sī",
-          "fr": "j / q / x / zh / ch / sh / r / z / c / s + i",
-          "note": "Attention : le i de jī, qī, xī diffère de celui de zhī, chī, shī, rī et de zī, cī, sī. Cette série sert à articuler les initiales."
+          "pinyin": "mō",
+          "fr": "m + o",
+          "note": "Une syllabe d’entraînement : écoutez, puis répétez."
+        },
+        {
+          "id": "initial-f",
+          "kind": "group",
+          "hanzi": "",
+          "pinyin": "fō",
+          "fr": "f + o",
+          "note": "Une syllabe d’entraînement : écoutez, puis répétez."
+        },
+        {
+          "id": "initial-d",
+          "kind": "group",
+          "hanzi": "",
+          "pinyin": "dē",
+          "fr": "d + e",
+          "note": "Une syllabe d’entraînement : écoutez, puis répétez. Le e ne se lit pas comme le é français."
+        },
+        {
+          "id": "initial-t",
+          "kind": "group",
+          "hanzi": "",
+          "pinyin": "tē",
+          "fr": "t + e",
+          "note": "Une syllabe d’entraînement : écoutez, puis répétez. Le e ne se lit pas comme le é français."
+        },
+        {
+          "id": "initial-n",
+          "kind": "group",
+          "hanzi": "",
+          "pinyin": "nē",
+          "fr": "n + e",
+          "note": "Une syllabe d’entraînement : écoutez, puis répétez. Le e ne se lit pas comme le é français."
+        },
+        {
+          "id": "initial-l",
+          "kind": "group",
+          "hanzi": "",
+          "pinyin": "lē",
+          "fr": "l + e",
+          "note": "Une syllabe d’entraînement : écoutez, puis répétez. Le e ne se lit pas comme le é français."
+        },
+        {
+          "id": "initial-g",
+          "kind": "group",
+          "hanzi": "",
+          "pinyin": "gē",
+          "fr": "g + e",
+          "note": "Une syllabe d’entraînement : écoutez, puis répétez. Le e ne se lit pas comme le é français."
+        },
+        {
+          "id": "initial-k",
+          "kind": "group",
+          "hanzi": "",
+          "pinyin": "kē",
+          "fr": "k + e",
+          "note": "Une syllabe d’entraînement : écoutez, puis répétez. Le e ne se lit pas comme le é français."
+        },
+        {
+          "id": "initial-h",
+          "kind": "group",
+          "hanzi": "",
+          "pinyin": "hē",
+          "fr": "h + e",
+          "note": "Une syllabe d’entraînement : écoutez, puis répétez. Le e ne se lit pas comme le é français."
+        },
+        {
+          "id": "initial-j",
+          "kind": "group",
+          "hanzi": "",
+          "pinyin": "jī",
+          "fr": "j + i",
+          "note": "Une syllabe d’entraînement : écoutez, puis répétez."
+        },
+        {
+          "id": "initial-q",
+          "kind": "group",
+          "hanzi": "",
+          "pinyin": "qī",
+          "fr": "q + i",
+          "note": "Une syllabe d’entraînement : écoutez, puis répétez."
+        },
+        {
+          "id": "initial-x",
+          "kind": "group",
+          "hanzi": "",
+          "pinyin": "xī",
+          "fr": "x + i",
+          "note": "Une syllabe d’entraînement : écoutez, puis répétez."
+        },
+        {
+          "id": "initial-zh",
+          "kind": "group",
+          "hanzi": "",
+          "pinyin": "zhī",
+          "fr": "zh + i",
+          "note": "Une syllabe d’entraînement : écoutez, puis répétez. Ce i ne se prononce pas comme le i français."
+        },
+        {
+          "id": "initial-ch",
+          "kind": "group",
+          "hanzi": "",
+          "pinyin": "chī",
+          "fr": "ch + i",
+          "note": "Une syllabe d’entraînement : écoutez, puis répétez. Ce i ne se prononce pas comme le i français."
+        },
+        {
+          "id": "initial-sh",
+          "kind": "group",
+          "hanzi": "",
+          "pinyin": "shī",
+          "fr": "sh + i",
+          "note": "Une syllabe d’entraînement : écoutez, puis répétez. Ce i ne se prononce pas comme le i français."
+        },
+        {
+          "id": "initial-r",
+          "kind": "group",
+          "hanzi": "",
+          "pinyin": "rī",
+          "fr": "r + i",
+          "note": "Une syllabe d’entraînement : écoutez, puis répétez. Ce i ne se prononce pas comme le i français."
+        },
+        {
+          "id": "initial-z",
+          "kind": "group",
+          "hanzi": "",
+          "pinyin": "zī",
+          "fr": "z + i",
+          "note": "Une syllabe d’entraînement : écoutez, puis répétez. Ce i ne se prononce pas comme le i français."
+        },
+        {
+          "id": "initial-c",
+          "kind": "group",
+          "hanzi": "",
+          "pinyin": "cī",
+          "fr": "c + i",
+          "note": "Une syllabe d’entraînement : écoutez, puis répétez. Ce i ne se prononce pas comme le i français."
+        },
+        {
+          "id": "initial-s",
+          "kind": "group",
+          "hanzi": "",
+          "pinyin": "sī",
+          "fr": "s + i",
+          "note": "Une syllabe d’entraînement : écoutez, puis répétez. Ce i ne se prononce pas comme le i français."
         },
         {
           "id": "bo-po",
