@@ -1,5 +1,5 @@
 {
-  "revision": 0,
+  "revision": 3,
   "lessons": [
     {
       "id": "lecon-1",
@@ -116,6 +116,485 @@
           "prompt": "Vous terminez un appel et vous dites au revoir.",
           "answer": "zaijian",
           "explanation": "À la fin de l’appel, vous pouvez dire 再见."
+        }
+      ]
+    },
+    {
+      "id": "lecon-2",
+      "number": 2,
+      "title": "Les initiales en pratique",
+      "titleZh": "第二课 · 声母与跟读",
+      "description": "Trois groupes pour retrouver les 21 initiales, comparer les sons et suivre la vidéo de Xinyi.",
+      "published": true,
+      "sections": [
+        {
+          "id": "groups",
+          "title": "Les trois groupes",
+          "heading": "Retrouver les initiales",
+          "description": "Lisez lentement. Ces associations reprennent notre travail en classe ; une initiale peut aussi se combiner avec d’autres finales.",
+          "kinds": [
+            "group"
+          ]
+        },
+        {
+          "id": "contrasts",
+          "title": "Les contrastes",
+          "heading": "Sentir la différence",
+          "description": "Gardez le même ton dans chaque paire. Placez la main devant la bouche pour sentir le souffle, sans forcer.",
+          "kinds": [
+            "drill",
+            "word"
+          ]
+        },
+        {
+          "id": "video",
+          "title": "Avec la vidéo",
+          "heading": "Lire, écouter, recommencer",
+          "description": "Essayez d’abord de lire une ligne, puis écoutez la vidéo et répétez. Ne cherchez pas à suivre toute la vidéo d’un seul coup.",
+          "kinds": [],
+          "video": true
+        },
+        {
+          "id": "scenes",
+          "title": "Je vérifie",
+          "heading": "Vérifier les repères",
+          "description": "Ces questions portent sur les repères de prononciation. Ce ne sont pas des exercices de reconnaissance audio.",
+          "kinds": []
+        }
+      ],
+      "items": [
+        {
+          "id": "group-o",
+          "kind": "group",
+          "hanzi": "",
+          "pinyin": "bō · pō · mō · fō",
+          "fr": "b / p / m / f + o",
+          "note": "Une ligne d’entraînement. Gardez les lèvres arrondies ; la réalisation du o peut comporter une petite transition après ces initiales."
+        },
+        {
+          "id": "group-e",
+          "kind": "group",
+          "hanzi": "",
+          "pinyin": "dē · tē · nē · lē · gē · kē · hē",
+          "fr": "d / t / n / l / g / k / h + e",
+          "note": "Le e de cette série ne se lit pas comme le é français. Retrouvez le son travaillé avec Xinyi."
+        },
+        {
+          "id": "group-i",
+          "kind": "group",
+          "hanzi": "",
+          "pinyin": "jī · qī · xī · zhī · chī · shī · rī · zī · cī · sī",
+          "fr": "j / q / x / zh / ch / sh / r / z / c / s + i",
+          "note": "Attention : le i de jī, qī, xī diffère de celui de zhī, chī, shī, rī et de zī, cī, sī. Cette série sert à articuler les initiales."
+        },
+        {
+          "id": "bo-po",
+          "kind": "drill",
+          "hanzi": "",
+          "pinyin": "bō · pō",
+          "fr": "Syllabes d’entraînement · pas des mots à mémoriser",
+          "note": "Les deux sons sont sourds. b : peu de souffle ; p : souffle plus net. Le b mandarin n’est pas le b français."
+        },
+        {
+          "id": "de-te",
+          "kind": "drill",
+          "hanzi": "",
+          "pinyin": "dē · tē",
+          "fr": "Syllabes d’entraînement · pas des mots à mémoriser",
+          "note": "d : peu de souffle ; t : souffle plus net. Les lettres servent ici à s’entraîner, sans sens à apprendre."
+        },
+        {
+          "id": "ge-ke",
+          "kind": "drill",
+          "hanzi": "",
+          "pinyin": "gē · kē",
+          "fr": "Syllabes d’entraînement · pas des mots à mémoriser",
+          "note": "g : peu de souffle ; k : souffle plus net. L’arrière de la langue travaille dans les deux cas."
+        },
+        {
+          "id": "zi-ci",
+          "kind": "drill",
+          "hanzi": "",
+          "pinyin": "zī · cī",
+          "fr": "Syllabes d’entraînement · pas des mots à mémoriser",
+          "note": "z : affriquée avec peu de souffle ; c : affriquée avec plus de souffle. Le c ne se lit ni comme le c de café ni comme celui de cinéma."
+        },
+        {
+          "id": "qi",
+          "kind": "word",
+          "hanzi": "七",
+          "pinyin": "qī",
+          "fr": "sept",
+          "note": "q comporte un souffle net. La partie avant de la langue se rapproche du palais ; la pointe reste vers les dents du bas."
+        },
+        {
+          "id": "si",
+          "kind": "word",
+          "hanzi": "四",
+          "pinyin": "sì",
+          "fr": "quatre",
+          "note": "Pointe de la langue vers les dents du bas ; laissez passer l’air dans un passage étroit."
+        },
+        {
+          "id": "shi",
+          "kind": "word",
+          "hanzi": "十",
+          "pinyin": "shí",
+          "fr": "dix",
+          "note": "Pour sh, la pointe de la langue est relevée vers la région située derrière les alvéoles, sans fermer le passage de l’air."
+        },
+        {
+          "id": "ge",
+          "kind": "word",
+          "hanzi": "哥",
+          "pinyin": "gē",
+          "fr": "grand frère",
+          "note": "Retrouvez le g avec peu de souffle. Un seul caractère peut ici former un mot."
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "l2-q1",
+          "prompt": "Quelle série demande un souffle plus net ?",
+          "choices": [
+            {
+              "id": "a",
+              "hanzi": "",
+              "pinyin": "b · d · g"
+            },
+            {
+              "id": "b",
+              "hanzi": "",
+              "pinyin": "p · t · k"
+            }
+          ],
+          "answer": "b",
+          "explanation": "p, t et k sont aspirés : le souffle est plus net que pour b, d et g."
+        },
+        {
+          "id": "l2-q2",
+          "prompt": "Le c du pinyin correspond-il au c français de café ou de cinéma ?",
+          "choices": [
+            {
+              "id": "a",
+              "pinyin": "Oui"
+            },
+            {
+              "id": "b",
+              "pinyin": "Non"
+            }
+          ],
+          "answer": "b",
+          "explanation": "Le c du pinyin est une affriquée aspirée : une fermeture très brève suivie d’un frottement et de souffle."
+        },
+        {
+          "id": "l2-q3",
+          "prompt": "Le i se prononce-t-il de la même façon dans qī, shī et sī ?",
+          "choices": [
+            {
+              "id": "a",
+              "pinyin": "Oui"
+            },
+            {
+              "id": "b",
+              "pinyin": "Non"
+            }
+          ],
+          "answer": "b",
+          "explanation": "L’écriture i recouvre ici des réalisations différentes. Réécoutez chaque série dans la vidéo."
+        },
+        {
+          "id": "l2-q4",
+          "prompt": "Quel caractère signifie « sept » ?",
+          "options": [
+            "qi",
+            "si",
+            "shi"
+          ],
+          "answer": "qi",
+          "explanation": "七 qī signifie sept. 四 sì : quatre ; 十 shí : dix."
+        }
+      ]
+    },
+    {
+      "id": "lecon-3",
+      "number": 3,
+      "title": "Assembler les sons et se saluer",
+      "titleZh": "第三课 · 拼读、第四声与问候",
+      "description": "Des syllabes aux mots, puis aux petites phrases : travaillez les contrastes et le quatrième ton.",
+      "published": true,
+      "sections": [
+        {
+          "id": "contrasts",
+          "title": "Les contrastes",
+          "heading": "Une différence à la fois",
+          "description": "Lisez chaque paire au premier ton pour vous concentrer sur les consonnes. Faites deux essais, puis réécoutez votre prise.",
+          "kinds": [
+            "drill"
+          ]
+        },
+        {
+          "id": "fourth",
+          "title": "Le quatrième ton",
+          "heading": "Une voix qui descend",
+          "description": "Commencez assez haut, dans une zone confortable, puis descendez nettement. Pas besoin de crier ni de prendre une voix en colère.",
+          "kinds": [
+            "tone",
+            "fourth"
+          ]
+        },
+        {
+          "id": "greetings",
+          "title": "Des mots aux phrases",
+          "heading": "Lire pour dire quelque chose",
+          "description": "Repérez les syllabes, lisez le mot entier, puis utilisez-le dans une courte réplique. Les traductions donnent le sens de l’expression entière.",
+          "kinds": [
+            "greeting"
+          ],
+          "ladder": true
+        },
+        {
+          "id": "scenes",
+          "title": "En situation",
+          "heading": "Choisir une réplique",
+          "description": "Lisez la situation, choisissez une réponse, puis dites-la sans regarder le pinyin.",
+          "kinds": []
+        }
+      ],
+      "items": [
+        {
+          "id": "bo-po",
+          "kind": "drill",
+          "hanzi": "",
+          "pinyin": "bō · pō",
+          "fr": "Syllabes d’entraînement · pas des mots à mémoriser",
+          "note": "b : peu de souffle ; p : souffle plus net. N’ajoutez pas un e à la fin."
+        },
+        {
+          "id": "de-te",
+          "kind": "drill",
+          "hanzi": "",
+          "pinyin": "dē · tē",
+          "fr": "Syllabes d’entraînement · pas des mots à mémoriser",
+          "note": "Même ton, même finale : seule l’initiale change. 得 dé et 特 tè ne feraient pas une paire au même ton."
+        },
+        {
+          "id": "zi-ci",
+          "kind": "drill",
+          "hanzi": "",
+          "pinyin": "zī · cī",
+          "fr": "Syllabes d’entraînement · pas des mots à mémoriser",
+          "note": "Pour c, gardez la brève fermeture suivie du frottement et ajoutez un souffle net."
+        },
+        {
+          "id": "qi-chi",
+          "kind": "drill",
+          "hanzi": "",
+          "pinyin": "qī · chī",
+          "fr": "Syllabes d’entraînement · pas des mots à mémoriser",
+          "note": "Les deux sont aspirés. q : pointe vers le bas, partie avant de la langue vers le palais ; ch : pointe relevée plus en arrière."
+        },
+        {
+          "id": "si-shi",
+          "kind": "drill",
+          "hanzi": "",
+          "pinyin": "sī · shī",
+          "fr": "Syllabes d’entraînement · pas des mots à mémoriser",
+          "note": "s : pointe vers le bas ; sh : pointe relevée plus en arrière, avec un passage pour l’air. Le i change aussi."
+        },
+        {
+          "id": "zi-zhi",
+          "kind": "drill",
+          "hanzi": "",
+          "pinyin": "zī · zhī",
+          "fr": "Syllabes d’entraînement · pas des mots à mémoriser",
+          "note": "z : articulation plus en avant ; zh : pointe relevée plus en arrière. Le i ne se prononce pas comme le i français dans ces séries."
+        },
+        {
+          "id": "ma-4",
+          "kind": "tone",
+          "hanzi": "骂",
+          "pinyin": "mà",
+          "fr": "gronder / insulter",
+          "note": "Écoutez le quatrième ton dans la voix réelle de Xinyi, puis essayez de retrouver le mouvement descendant.",
+          "tone": 4
+        },
+        {
+          "id": "si",
+          "kind": "fourth",
+          "hanzi": "四",
+          "pinyin": "sì",
+          "fr": "quatre",
+          "note": "Un quatrième ton : haut → bas."
+        },
+        {
+          "id": "shi",
+          "kind": "fourth",
+          "hanzi": "是",
+          "pinyin": "shì",
+          "fr": "être",
+          "note": "Même ton que sì ; l’initiale et la réalisation du i changent."
+        },
+        {
+          "id": "zi",
+          "kind": "fourth",
+          "hanzi": "字",
+          "pinyin": "zì",
+          "fr": "caractère écrit",
+          "note": "Un caractère écrit : 字. Un mot peut comporter un ou plusieurs caractères."
+        },
+        {
+          "id": "ci",
+          "kind": "fourth",
+          "hanzi": "次",
+          "pinyin": "cì",
+          "fr": "fois",
+          "note": "Retrouvez le souffle du c et la descente du quatrième ton."
+        },
+        {
+          "id": "qu",
+          "kind": "fourth",
+          "hanzi": "去",
+          "pinyin": "qù",
+          "fr": "aller",
+          "note": "Après q, le u écrit représente ici ü : lèvres arrondies et langue vers l’avant."
+        },
+        {
+          "id": "da",
+          "kind": "fourth",
+          "hanzi": "大",
+          "pinyin": "dà",
+          "fr": "grand / grande",
+          "note": "d avec peu de souffle ; puis une descente nette."
+        },
+        {
+          "id": "nihao",
+          "kind": "greeting",
+          "hanzi": "你好",
+          "pinyin": "nǐ hǎo",
+          "fr": "bonjour",
+          "note": "Le pinyin garde les tons de base. À l’oral, le premier troisième ton devient habituellement montant devant le suivant."
+        },
+        {
+          "id": "ninhao",
+          "kind": "greeting",
+          "hanzi": "您好",
+          "pinyin": "nín hǎo",
+          "fr": "bonjour · formule plus polie",
+          "note": "Pour s’adresser poliment à une personne."
+        },
+        {
+          "id": "laoshi",
+          "kind": "greeting",
+          "hanzi": "老师",
+          "pinyin": "lǎoshī",
+          "fr": "enseignant / enseignante",
+          "note": "Un mot de deux caractères. Ce mot seul désigne une personne ; ajoutez 好 pour la saluer."
+        },
+        {
+          "id": "laoshihao",
+          "kind": "greeting",
+          "hanzi": "老师好",
+          "pinyin": "Lǎoshī hǎo",
+          "fr": "Bonjour ! · à son enseignant",
+          "note": "Une courte salutation adressée à votre enseignant ou enseignante."
+        },
+        {
+          "id": "xiexie",
+          "kind": "greeting",
+          "hanzi": "谢谢",
+          "pinyin": "xièxie",
+          "fr": "merci",
+          "note": "Quatrième ton sur xiè, puis xie léger, sans marque de ton."
+        },
+        {
+          "id": "zaijian",
+          "kind": "greeting",
+          "hanzi": "再见",
+          "pinyin": "zàijiàn",
+          "fr": "au revoir",
+          "note": "Deux quatrièmes tons ; la première descente peut être plus courte dans la parole naturelle."
+        },
+        {
+          "id": "zaoshanghao",
+          "kind": "greeting",
+          "hanzi": "早上好",
+          "pinyin": "zǎoshang hǎo",
+          "fr": "bonjour · le matin",
+          "note": "shang est léger dans la prononciation courante présentée ici."
+        },
+        {
+          "id": "xiawuhao",
+          "kind": "greeting",
+          "hanzi": "下午好",
+          "pinyin": "xiàwǔ hǎo",
+          "fr": "bonjour · l’après-midi",
+          "note": "En français, on dit bonjour en arrivant l’après-midi. Bon après-midi s’emploie plutôt au moment de partir."
+        },
+        {
+          "id": "wanshanghao",
+          "kind": "greeting",
+          "hanzi": "晚上好",
+          "pinyin": "wǎnshang hǎo",
+          "fr": "bonsoir",
+          "note": "Pour saluer le soir ; shang est léger dans cette prononciation."
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "l3-s1",
+          "prompt": "Il est 19 heures. Vous arrivez et saluez une personne. Choisissez la formule qui mentionne le moment de la journée.",
+          "options": [
+            "zaoshanghao",
+            "xiawuhao",
+            "wanshanghao"
+          ],
+          "answer": "wanshanghao",
+          "explanation": "晚上好 wǎnshang hǎo : bonsoir."
+        },
+        {
+          "id": "l3-s2",
+          "prompt": "Votre enseignante vous rend un document et vous aide à le ranger. Vous la remerciez.",
+          "options": [
+            "xiexie",
+            "zaijian",
+            "laoshihao"
+          ],
+          "answer": "xiexie",
+          "explanation": "谢谢 xièxie : merci. La seconde syllabe est légère."
+        },
+        {
+          "id": "l3-s3",
+          "prompt": "Vous partez à la fin du cours. Que dites-vous ?",
+          "options": [
+            "nihao",
+            "zaijian",
+            "wanshanghao"
+          ],
+          "answer": "zaijian",
+          "explanation": "再见 zàijiàn : au revoir. Vous pouvez aussi dire 老师，再见 : au revoir à votre enseignante."
+        },
+        {
+          "id": "l3-s4",
+          "prompt": "Quel caractère signifie « caractère écrit » ?",
+          "options": [
+            "zi",
+            "si",
+            "ci"
+          ],
+          "answer": "zi",
+          "explanation": "字 zì : caractère écrit. 四 sì : quatre ; 次 cì : fois."
+        },
+        {
+          "id": "l3-s5",
+          "prompt": "Quelle expression contient une syllabe légère, sans marque de ton ?",
+          "options": [
+            "xiexie",
+            "zaijian",
+            "ninhao"
+          ],
+          "answer": "xiexie",
+          "explanation": "谢谢 xièxie : xiè au quatrième ton, puis xie au ton neutre."
         }
       ]
     }
