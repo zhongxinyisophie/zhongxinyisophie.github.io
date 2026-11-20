@@ -1,5 +1,5 @@
 {
-  "revision": 3,
+  "revision": 4,
   "lessons": [
     {
       "id": "lecon-1",
@@ -349,7 +349,8 @@
           "heading": "Lire pour dire quelque chose",
           "description": "Repérez les syllabes, lisez le mot entier, puis utilisez-le dans une courte réplique. Les traductions donnent le sens de l’expression entière.",
           "kinds": [
-            "greeting"
+            "greeting",
+            "reading"
           ],
           "ladder": true
         },
@@ -538,6 +539,46 @@
           "pinyin": "wǎnshang hǎo",
           "fr": "bonsoir",
           "note": "Pour saluer le soir ; shang est léger dans cette prononciation."
+        },
+        {
+          "id": "dazi",
+          "kind": "reading",
+          "hanzi": "大字",
+          "pinyin": "dàzì",
+          "fr": "gros caractères",
+          "note": "Écoutez l’ensemble, puis dites-le d’une seule traite à votre tour."
+        },
+        {
+          "id": "sici",
+          "kind": "reading",
+          "hanzi": "四次",
+          "pinyin": "sì cì",
+          "fr": "quatre fois",
+          "note": "Écoutez l’ensemble, puis dites-le d’une seule traite à votre tour."
+        },
+        {
+          "id": "laoshi-ninhao",
+          "kind": "reading",
+          "hanzi": "老师，您好。",
+          "pinyin": "Lǎoshī, nín hǎo.",
+          "fr": "Bonjour ! · à son enseignant, formule polie",
+          "note": "Écoutez l’ensemble, puis dites-le d’une seule traite à votre tour."
+        },
+        {
+          "id": "xiexie-laoshi",
+          "kind": "reading",
+          "hanzi": "谢谢，老师。",
+          "pinyin": "Xièxie, lǎoshī.",
+          "fr": "Merci ! · à son enseignant",
+          "note": "Écoutez l’ensemble, puis dites-le d’une seule traite à votre tour."
+        },
+        {
+          "id": "laoshi-zaijian",
+          "kind": "reading",
+          "hanzi": "老师，再见。",
+          "pinyin": "Lǎoshī, zàijiàn.",
+          "fr": "Au revoir ! · à son enseignant",
+          "note": "Écoutez l’ensemble, puis dites-le d’une seule traite à votre tour."
         }
       ],
       "scenarios": [

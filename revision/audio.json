@@ -1466,5 +1466,169 @@
       "maxHz": 320,
       "method": "Praat autocorrelation; 10 ms frames; 3-frame median; common logarithmic scale"
     }
+  },
+  "lecon-1/mama": {
+    "url": "audio/lecon-1/mama.mp3",
+    "updatedAt": 1795209511701
+  },
+  "lecon-1/nihao": {
+    "url": "audio/lecon-1/nihao.mp3",
+    "updatedAt": 1795209511816
+  },
+  "lecon-1/xiexie": {
+    "url": "audio/lecon-1/xiexie.mp3",
+    "updatedAt": 1795209511968
+  },
+  "lecon-1/zaijian": {
+    "url": "audio/lecon-1/zaijian.mp3",
+    "updatedAt": 1795209512074
+  },
+  "lecon-2/group-o": {
+    "url": "audio/lecon-2/group-o.mp3",
+    "updatedAt": 1795209512204
+  },
+  "lecon-2/group-e": {
+    "url": "audio/lecon-2/group-e.mp3",
+    "updatedAt": 1795209512334
+  },
+  "lecon-2/group-i": {
+    "url": "audio/lecon-2/group-i.mp3",
+    "updatedAt": 1795209512536
+  },
+  "lecon-2/bo-po": {
+    "url": "audio/lecon-2/bo-po.mp3",
+    "updatedAt": 1795209512661
+  },
+  "lecon-2/de-te": {
+    "url": "audio/lecon-2/de-te.mp3",
+    "updatedAt": 1795209512798
+  },
+  "lecon-2/ge-ke": {
+    "url": "audio/lecon-2/ge-ke.mp3",
+    "updatedAt": 1795209512942
+  },
+  "lecon-2/zi-ci": {
+    "url": "audio/lecon-2/zi-ci.mp3",
+    "updatedAt": 1795209513064
+  },
+  "lecon-2/qi": {
+    "url": "audio/lecon-2/qi.mp3",
+    "updatedAt": 1795209513184
+  },
+  "lecon-2/si": {
+    "url": "audio/lecon-2/si.mp3",
+    "updatedAt": 1795209513325
+  },
+  "lecon-2/shi": {
+    "url": "audio/lecon-2/shi.mp3",
+    "updatedAt": 1795209513431
+  },
+  "lecon-2/ge": {
+    "url": "audio/lecon-2/ge.mp3",
+    "updatedAt": 1795209513562
+  },
+  "lecon-3/qi-chi": {
+    "url": "audio/lecon-3/qi-chi.mp3",
+    "updatedAt": 1795209513716
+  },
+  "lecon-3/si-shi": {
+    "url": "audio/lecon-3/si-shi.mp3",
+    "updatedAt": 1795209513848
+  },
+  "lecon-3/zi-zhi": {
+    "url": "audio/lecon-3/zi-zhi.mp3",
+    "updatedAt": 1795209513995
+  },
+  "lecon-3/shi": {
+    "url": "audio/lecon-3/shi.mp3",
+    "updatedAt": 1795209514118
+  },
+  "lecon-3/zi": {
+    "url": "audio/lecon-3/zi.mp3",
+    "updatedAt": 1795209514246
+  },
+  "lecon-3/ci": {
+    "url": "audio/lecon-3/ci.mp3",
+    "updatedAt": 1795209514353
+  },
+  "lecon-3/qu": {
+    "url": "audio/lecon-3/qu.mp3",
+    "updatedAt": 1795209514498
+  },
+  "lecon-3/da": {
+    "url": "audio/lecon-3/da.mp3",
+    "updatedAt": 1795209514614
+  },
+  "lecon-3/ninhao": {
+    "url": "audio/lecon-3/ninhao.mp3",
+    "updatedAt": 1795209514757
+  },
+  "lecon-3/laoshi": {
+    "url": "audio/lecon-3/laoshi.mp3",
+    "updatedAt": 1795209514900
+  },
+  "lecon-3/laoshihao": {
+    "url": "audio/lecon-3/laoshihao.mp3",
+    "updatedAt": 1795209515045
+  },
+  "lecon-3/zaoshanghao": {
+    "url": "audio/lecon-3/zaoshanghao.mp3",
+    "updatedAt": 1795209515164
+  },
+  "lecon-3/xiawuhao": {
+    "url": "audio/lecon-3/xiawuhao.mp3",
+    "updatedAt": 1795209515297
+  },
+  "lecon-3/wanshanghao": {
+    "url": "audio/lecon-3/wanshanghao.mp3",
+    "updatedAt": 1795209515431
+  },
+  "lecon-3/dazi": {
+    "url": "audio/lecon-3/dazi.mp3",
+    "updatedAt": 1795209515564
+  },
+  "lecon-3/sici": {
+    "url": "audio/lecon-3/sici.mp3",
+    "updatedAt": 1795209515714
+  },
+  "lecon-3/laoshi-ninhao": {
+    "url": "audio/lecon-3/laoshi-ninhao.mp3",
+    "updatedAt": 1795209515848
+  },
+  "lecon-3/xiexie-laoshi": {
+    "url": "audio/lecon-3/xiexie-laoshi.mp3",
+    "updatedAt": 1795209515985
+  },
+  "lecon-3/laoshi-zaijian": {
+    "url": "audio/lecon-3/laoshi-zaijian.mp3",
+    "updatedAt": 1795209516108
+  },
+  "lecon-3/bo-po": {
+    "url": "audio/lecon-2/bo-po.mp3",
+    "updatedAt": 1795209512661
+  },
+  "lecon-3/de-te": {
+    "url": "audio/lecon-2/de-te.mp3",
+    "updatedAt": 1795209512798
+  },
+  "lecon-3/zi-ci": {
+    "url": "audio/lecon-2/zi-ci.mp3",
+    "updatedAt": 1795209513064
+  },
+  "lecon-3/si": {
+    "url": "audio/lecon-2/si.mp3",
+    "updatedAt": 1795209513325
+  },
+  "lecon-3/nihao": {
+    "url": "audio/lecon-1/nihao.mp3",
+    "updatedAt": 1795209511816
+  },
+  "lecon-3/xiexie": {
+    "url": "audio/lecon-1/xiexie.mp3",
+    "updatedAt": 1795209511968
+  },
+  "lecon-3/zaijian": {
+    "url": "audio/lecon-1/zaijian.mp3",
+    "updatedAt": 1795209512074
   }
 }
