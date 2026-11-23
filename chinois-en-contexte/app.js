@@ -60,8 +60,8 @@ function renderLesson(lesson) {
   const chunks = lesson.chunks.map(([chunk, meaning]) =>
     `<li><strong>${zh(chunk)}</strong> · ${escapeHtml(meaning)}</li>`
   ).join("");
-  const patterns = lesson.patterns.map(([pattern, example]) =>
-    `<li><strong>${zh(pattern)}</strong><br>${zh(example)}</li>`
+  const patterns = lesson.patterns.map(([pattern, example, meaning]) =>
+    `<li><strong>${zh(pattern)}</strong>${example ? "<br>" + zh(example) : ""}${meaning ? "<br>" + escapeHtml(meaning) : ""}</li>`
   ).join("");
   const reading = lesson.reading.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("");
   lessonPage.innerHTML = `
@@ -80,10 +80,10 @@ function renderLesson(lesson) {
     ${section("lecture", "Lire et comprendre · " + zh("阅读"), `
       <div class="reading" lang="zh-Hans">${reading}</div>
       <h3>Vérifier la compréhension</h3>${list(lesson.check)}
-      <h3>Pour aller plus loin</h3><ul class="media">${readingLinks(lesson.media)}</ul>`)}
+      ${lesson.media.length ? `<h3>Pour aller plus loin</h3><ul class="media">${readingLinks(lesson.media)}</ul>` : ""}`)}
     ${section("lexique", "Mots clés · " + zh("核心词汇"), `<dl class="vocab">${vocab}</dl>`)}
     ${section("expressions", "Expressions et structures · " + zh("语块与句型"), `
-      <h3>Expressions à réutiliser</h3><ul>${chunks}</ul>
+      ${chunks ? `<h3>Expressions à réutiliser</h3><ul>${chunks}</ul>` : ""}
       <h3>Structures en contexte</h3><ul>${patterns}</ul>`)}
     ${section("oral", "Échanger et s’exprimer · " + zh("讨论与口语"), `
       <h3>Discussion</h3>${list(lesson.discussion)}
