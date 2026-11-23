@@ -19,7 +19,6 @@ h1,h2,h3,.subtitle{font-family:var(--serif);line-height:1.22;margin:0}
 .hero-print::before,.hero-print::after{content:"";position:absolute;width:75%;aspect-ratio:1;border:1px solid #ffffff40;border-radius:50%}.hero-print::after{width:66%}
 .hero-print span{writing-mode:vertical-rl;color:#e9ddbd;font:bold clamp(4rem,8vw,7rem)/1 var(--serif);letter-spacing:.15em;transform:rotate(-10deg)}
 .catalog{border-top:1px solid var(--line);padding-block:2rem 4rem}.section-head h2{font-size:clamp(1.8rem,4vw,2.6rem)}small{font: .9rem system-ui;color:var(--muted);margin-inline-start:.5rem}
-.section-head label{font-size:.9rem}.section-head select{border:1px solid var(--line);background:#fffaf2;border-radius:5px;padding:.4rem;margin-inline-start:.4rem}
 .filters{display:flex;gap:.5rem;flex-wrap:wrap;margin:1.25rem 0}.filters button{border:1px solid var(--line);background:transparent;border-radius:99px;padding:.38rem .92rem;min-height:44px;cursor:pointer;font-size:.88rem}.filters button[aria-pressed=true]{background:var(--leaf);border-color:var(--leaf);color:#fff}
 .cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
 .card{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:#fffaf2}.card:hover{border-color:var(--leaf);box-shadow:0 5px 20px #27392a15}

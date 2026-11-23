@@ -4,7 +4,6 @@ const home = byId("home");
 const lessonPage = byId("lesson");
 const cards = byId("cards");
 const filters = byId("filters");
-const order = byId("order");
 let selectedTheme = "";
 
 function escapeHtml(value) {
@@ -20,7 +19,7 @@ const readingLinks = (media) => media.map(([label, url, prompt]) =>
   `<li><a href="${escapeHtml(url)}" lang="zh-Hans">${escapeHtml(label)}</a><br>${zh(prompt)}</li>`
 ).join("");
 
-for (const theme of ["", ...new Set(lessons.map((lesson) => lesson.topic))]) {
+for (const theme of ["", ...new Set(lessons.map((lesson) => lesson.topic).sort((first, second) => first.localeCompare(second, "fr")))]) {
   const button = document.createElement("button");
   button.type = "button";
   button.textContent = theme || "Tous les thèmes";
@@ -34,18 +33,17 @@ for (const theme of ["", ...new Set(lessons.map((lesson) => lesson.topic))]) {
 
 function renderCards() {
   const visible = lessons.filter((lesson) => !selectedTheme || lesson.topic === selectedTheme);
-  visible.sort((first, second) => order.value === "asc"
-    ? first.id.localeCompare(second.id, "fr", { numeric: true })
-    : second.id.localeCompare(first.id, "fr", { numeric: true }));
+  visible.sort((first, second) => first.topic.localeCompare(second.topic, "fr")
+    || first.fr.localeCompare(second.fr, "fr"));
   for (const button of filters.children) {
     button.setAttribute("aria-pressed", String(button.dataset.theme === selectedTheme));
   }
   byId("count").textContent = `${visible.length} dossier(s)`;
   cards.innerHTML = visible.map((lesson) => `
-    <a class="card" data-mark="${escapeHtml(lesson.mark)}" href="#${escapeHtml(lesson.id)}">
+    <a class="card" data-mark="${escapeHtml(lesson.mark)}" href="#${escapeHtml(lesson.slug)}">
       <div class="card-art" aria-hidden="true">${zh(lesson.mark)}</div>
       <div class="card-body">
-        <span class="category">${escapeHtml(lesson.id)} · ${escapeHtml(lesson.topic)}</span>
+        <span class="category">${escapeHtml(lesson.topic)}</span>
         <h3>${zh(lesson.title)}</h3>
         <p class="card-desc">${escapeHtml(lesson.fr)}</p>
         <span class="open">Ouvrir le dossier <span aria-hidden="true">→</span></span>
@@ -67,15 +65,15 @@ function renderLesson(lesson) {
   lessonPage.innerHTML = `
     <a class="crumb" href="#dossiers">← Tous les dossiers</a>
     <div class="lesson-top">
-      <p class="category">${escapeHtml(lesson.id)} · ${escapeHtml(lesson.topic)} · ${zh(lesson.theme)}</p>
+      <p class="category">${escapeHtml(lesson.topic)} · ${zh(lesson.theme)}</p>
       <h1 tabindex="-1">${zh(lesson.title)}</h1>
       <p class="subtitle">${escapeHtml(lesson.fr)}</p>
       <p>${zh(lesson.intro)}<br>${escapeHtml(lesson.goal)}</p>
     </div>
     <nav class="lesson-menu" aria-label="Dans ce dossier">
-      <a href="#${lesson.id}/lecture">Lecture</a><a href="#${lesson.id}/lexique">Lexique</a>
-      <a href="#${lesson.id}/expressions">Expressions et structures</a>
-      <a href="#${lesson.id}/oral">Discussion et oral</a>
+      <a href="#${lesson.slug}/lecture">Lecture</a><a href="#${lesson.slug}/lexique">Lexique</a>
+      <a href="#${lesson.slug}/expressions">Expressions et structures</a>
+      <a href="#${lesson.slug}/oral">Discussion et oral</a>
     </nav>
     ${section("lecture", "Lire et comprendre · " + zh("阅读"), `
       <div class="reading" lang="zh-Hans">${reading}</div>
@@ -91,22 +89,54 @@ function renderLesson(lesson) {
   `;
 }
 
+// Keep previously shared links working while exposing only topic URLs.
+const legacySlugs = [
+  "ecrans-et-enfants",
+  "identite-et-cultures",
+  "intelligence-artificielle",
+  "education-chine-france",
+  "travail-domestique",
+  "dialectes-et-accents",
+  "gestion-des-risques",
+  "relations-au-travail",
+  "decrire-une-oeuvre",
+  "consommation-et-argent",
+  "fiabilite-des-medias",
+  "equilibre-de-vie",
+  "regards-sur-la-france",
+  "chinois-en-france",
+  "climatisation-et-logement",
+  "facons-de-voyager",
+  "jeunesse-et-competition",
+  "cinema-chinois",
+  "nouvelles-formes-de-loisirs",
+  "payer-pour-deleguer",
+  "vetements-ephemeres",
+  "economie-des-seniors",
+  "vente-en-direct",
+  "consommation-emotionnelle",
+];
 let activeLesson = null;
 function route() {
   const [id, anchor] = location.hash.slice(1).split("/");
-  const lesson = lessons.find((item) => item.id === id);
+  const legacyNumber = /^C([1-9]\d*)$/.exec(id);
+  const slug = legacyNumber ? legacySlugs[Number(legacyNumber[1]) - 1] : id;
+  if (legacyNumber && slug) {
+    history.replaceState(null, "", "#" + slug + (anchor ? "/" + anchor : ""));
+  }
+  const lesson = lessons.find((item) => item.slug === slug);
   home.hidden = Boolean(lesson);
   lessonPage.hidden = !lesson;
-  document.title = lesson ? `${lesson.id} · ${lesson.title} | 语境中文` : "语境中文 · Le chinois en contexte";
+  document.title = lesson ? `${lesson.title} | 语境中文` : "语境中文 · Le chinois en contexte";
   if (!lesson) {
     activeLesson = null;
     if (id === "dossiers") byId(id).scrollIntoView();
     else window.scrollTo(0, 0);
     return;
   }
-  if (activeLesson !== lesson.id) {
+  if (activeLesson !== lesson.slug) {
     renderLesson(lesson);
-    activeLesson = lesson.id;
+    activeLesson = lesson.slug;
   }
   const target = anchor && byId(anchor);
   if (target && lessonPage.contains(target)) {
@@ -119,7 +149,6 @@ function route() {
   }
 }
 
-order.addEventListener("change", renderCards);
 window.addEventListener("hashchange", route);
 renderCards();
 route();

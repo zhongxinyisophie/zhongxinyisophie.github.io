@@ -1,6 +1,6 @@
 window.lessons = [
   {
-    id: "C1",
+    slug: "ecrans-et-enfants",
     topic: "Éducation",
     theme: "教育",
     title: "电子产品对孩子的影响",
@@ -18,7 +18,7 @@ window.lessons = [
     speaking: "模拟一次家庭会议，为工作日和周末各提一条规则。解释理由，再回应一个反对意见。"
   },
   {
-    id: "C2",
+    slug: "identite-et-cultures",
     topic: "Identité et cultures",
     theme: "身份与文化",
     title: "身份认同和跨文化生活",
@@ -36,7 +36,7 @@ window.lessons = [
     speaking: "介绍一个让你感到有归属感的场合。说明你当时做了什么，以及周围的人怎样回应。"
   },
   {
-    id: "C3",
+    slug: "intelligence-artificielle",
     topic: "Technologie et médias",
     theme: "技术与媒体",
     title: "人工智能",
@@ -54,7 +54,7 @@ window.lessons = [
     speaking: "给班级提出三条使用人工智能的规则，每条规则配一个具体例子。"
   },
   {
-    id: "C4",
+    slug: "education-chine-france",
     topic: "Éducation",
     theme: "教育",
     title: "中法教育现状",
@@ -72,7 +72,7 @@ window.lessons = [
     speaking: "比较两种你了解的评价方式，从公平、反馈和学习动力中选两个角度。"
   },
   {
-    id: "C5",
+    slug: "travail-domestique",
     topic: "Société",
     theme: "社会",
     title: "家庭主妇/主夫",
@@ -90,7 +90,7 @@ window.lessons = [
     speaking: "为一个虚构家庭设计一周的分工。解释为什么公平，并提出一项遇到加班时的调整办法。"
   },
   {
-    id: "C6",
+    slug: "dialectes-et-accents",
     topic: "Identité et cultures",
     theme: "身份与文化",
     title: "中国方言和口音",
@@ -108,7 +108,7 @@ window.lessons = [
     speaking: "给一位法国朋友解释方言、口音和普通话的区别，再举一个你熟悉的例子。"
   },
   {
-    id: "C7",
+    slug: "gestion-des-risques",
     topic: "Travail et économie",
     theme: "职场与经济",
     title: "金融行业",
@@ -126,7 +126,7 @@ window.lessons = [
     speaking: "用一分钟向新同事介绍市场风险管理。先说目标，再用「也就是说」解释压力测试。"
   },
   {
-    id: "C8",
+    slug: "relations-au-travail",
     topic: "Travail et économie",
     theme: "职场与经济",
     title: "职场人际关系",
@@ -144,7 +144,7 @@ window.lessons = [
     speaking: "两人模拟一次私下反馈。先说明事实和影响，再约定分工及截止时间。"
   },
   {
-    id: "C9",
+    slug: "decrire-une-oeuvre",
     topic: "Arts et cinéma",
     theme: "艺术与电影",
     title: "艺术领域",
@@ -162,7 +162,7 @@ window.lessons = [
     speaking: "选一幅熟悉的画，先描述色调、构图或风格，再用画中一个细节解释自己的感受。"
   },
   {
-    id: "C10",
+    slug: "consommation-et-argent",
     topic: "Consommation",
     theme: "消费",
     title: "消费观/金钱观/安全感",
@@ -180,7 +180,7 @@ window.lessons = [
     speaking: "假设你有一笔额外预算。在储蓄、体验和购物中分配这笔钱，并用两个标准解释。"
   },
   {
-    id: "C11",
+    slug: "fiabilite-des-medias",
     topic: "Technologie et médias",
     theme: "技术与媒体",
     title: "媒体、信息真实性与舆论影响",
@@ -198,7 +198,7 @@ window.lessons = [
     speaking: "模拟核查一条网传消息，用「这取决于……」说明你会查看哪些来源、证据以及背景。"
   },
   {
-    id: "C12",
+    slug: "equilibre-de-vie",
     topic: "Travail et économie",
     theme: "职场与经济",
     title: "工作、压力与生活平衡",
@@ -216,7 +216,7 @@ window.lessons = [
     speaking: "比较两份虚构的工作机会，谈谈收入、通勤和时间安排，说明你会怎么权衡。"
   },
   {
-    id: "C13",
+    slug: "regards-sur-la-france",
     topic: "Identité et cultures",
     theme: "身份与文化",
     title: "中国人对法国的看法",
@@ -234,7 +234,7 @@ window.lessons = [
     speaking: "挑一个你常听到的关于中国或法国的印象，介绍它的来源，并用具体例子补充另一种情况。"
   },
   {
-    id: "C14",
+    slug: "chinois-en-france",
     topic: "Identité et cultures",
     theme: "身份与文化",
     title: "在法国的中国人",
@@ -252,7 +252,7 @@ window.lessons = [
     speaking: "设计一场面向新居民的介绍活动，说明安排、所需语言支持和你希望达成的目标。"
   },
   {
-    id: "C15",
+    slug: "climatisation-et-logement",
     topic: "Société",
     theme: "社会",
     title: "法国为什么这么难装空调？",
@@ -270,7 +270,7 @@ window.lessons = [
     speaking: "模拟楼内会议。比较空调、外遮阳和通风，从成本与舒适度两方面提出一项折中办法。"
   },
   {
-    id: "C16",
+    slug: "facons-de-voyager",
     topic: "Voyages et loisirs",
     theme: "旅游与休闲",
     title: "暑假经历和中法旅游方式对比",
@@ -288,7 +288,7 @@ window.lessons = [
     speaking: "为一位第一次来你所在地区的朋友安排三天行程，说明你更倾向于哪种节奏及理由。"
   },
   {
-    id: "C17",
+    slug: "jeunesse-et-competition",
     topic: "Travail et économie",
     theme: "职场与经济",
     title: "中国年轻人：内卷、躺平，还是另一种努力？",
@@ -306,7 +306,7 @@ window.lessons = [
     speaking: "描述一种竞争压力，比较退出、按原来的节奏做事和改善规则三种做法。"
   },
   {
-    id: "C18",
+    slug: "cinema-chinois",
     topic: "Arts et cinéma",
     theme: "艺术与电影",
     title: "中国电影",
@@ -324,7 +324,7 @@ window.lessons = [
     speaking: "向同学推荐一部中国电影。介绍剧情但别透露结局，再说出一个可能引起共鸣的细节。"
   },
   {
-    id: "C19",
+    slug: "nouvelles-formes-de-loisirs",
     topic: "Voyages et loisirs",
     theme: "旅游与休闲",
     title: "中国人的休闲方式正在怎么变？",
@@ -342,7 +342,43 @@ window.lessons = [
     speaking: "邀请朋友参加一次周末活动，介绍地点、费用和节奏，再用「和以前相比」说说自己的喜好变化。"
   },
   {
-    id: "C22", topic: "Société", theme: "社会", title: "人口老龄化与银发经济",
+    slug: "payer-pour-deleguer",
+    topic: "Travail et économie",
+    theme: "职场与经济",
+    title: "替身经济：花钱请人替你做事",
+    fr: "Payer quelqu’un pour agir à sa place",
+    mark: "替",
+    intro: "排队、取快递、陪家人吃饭，哪些事可以请别人代劳？",
+    goal: "Expliquer ce que l’on est prêt à déléguer et définir ses limites.",
+    words: [["替身经济","tìshēn jīngjì","économie des services réalisés à la place d’autrui"],["代劳","dàiláo","faire une tâche à la place de quelqu’un"],["排队","páiduì","faire la queue"],["取快递","qǔ kuàidì","récupérer un colis"],["家政服务","jiāzhèng fúwù","services à domicile"],["务实","wùshí","pragmatique"]],
+    chunks: [["花钱省时间","payer pour gagner du temps"],["请人替我排队","demander à quelqu’un de faire la queue à ma place"],["这要看情况","cela dépend de la situation"]],
+    patterns: [["愿意请人……，但……想自己做。","我愿意请人替我取快递，但道歉这件事我想自己做。"],["只要……，我就愿意……","只要提前说清楚费用，我就愿意试试这种服务。"]],
+    reading: ["小安下班太晚，赶不上驿站关门，就请人代取快递。周末，她也想找人陪父亲去医院，因为自己那天要工作。她先问父亲愿不愿意，又确认陪同的人能帮忙做什么。","朋友开玩笑说，既然有人可以替你排队、取快递，那是不是也可以替你向别人道歉？小安觉得，花钱省时间有时很务实，但在需要亲自表达感情或承担责任的场合，找人代劳可能会让对方觉得不真诚。"],
+    check: ["小安为什么请人代取快递？","找人陪父亲去医院前，她确认了什么？"],
+    media: [],
+    discussion: ["排队、陪同就医、向朋友道歉，你愿意把哪些事交给别人？为什么？","找人代劳时，怎样说清楚双方的责任和费用？"],
+    speaking: "从代取快递、代排队和陪同就医中选一项，模拟你与服务提供者的对话。说清任务、时间和费用，再说明哪一部分你会亲自做。"
+  },
+  {
+    slug: "vetements-ephemeres",
+    topic: "Consommation",
+    theme: "消费",
+    title: "次抛衣：为了拍照而买的衣服",
+    fr: "Les vêtements achetés pour une seule occasion",
+    mark: "衣",
+    intro: "一件衣服只穿一两次，它真的划算吗？",
+    goal: "Comparer des choix vestimentaires et nuancer un argument sur le coût et le gaspillage.",
+    words: [["次抛衣","cìpāoyī","vêtement acheté pour être porté une ou deux fois"],["穿搭","chuāndā","tenue ou manière d’assortir des vêtements"],["出片","chūpiàn","rendre bien en photo, dans le langage familier"],["闲置","xiánzhì","laisser inutilisé"],["转卖","zhuǎnmài","revendre"],["快时尚","kuàishíshàng","mode éphémère, fast fashion"],["跟风","gēnfēng","suivre une mode"]],
+    chunks: [["为了出片买衣服","acheter une tenue pour réussir ses photos"],["在二手平台上转卖","revendre sur une plateforme de seconde main"],["穿一两次就闲置","rester inutilisé après avoir été porté une ou deux fois"]],
+    patterns: [["表面上……，实际上……","表面上买一件次抛衣很省钱，实际上只穿一次也不一定划算。"],["如果不是为了……，就不会……","如果不是为了在古镇拍照，她就不会买这件衣服。"]],
+    reading: ["去海边之前，小林在网上看中了一条颜色鲜艳的裙子。她已经想好了在哪里拍照，但身边的朋友问她：回来以后，还会穿这条裙子吗？小林算了算，裙子虽然便宜，如果只穿一次，平均每次穿的成本反而不低。","她可以借朋友的衣服，也可以买一件平时能穿的，或者旅行后在二手平台上转卖。她发现，想拍好看的照片很正常。决定买不买之前，还可以想想自己已有的衣服能不能搭配出同样的效果。"],
+    check: ["朋友的问题让小林重新考虑了什么？","短文提出了哪几种选择？"],
+    media: [],
+    discussion: ["社交媒体怎样影响我们对旅行穿搭的期待？","怎么买才算划算？你会考虑单价、使用次数，还是其他因素？"],
+    speaking: "你和朋友准备去旅行。分别提出买新衣、借衣和用现有衣服搭配三种方案。比较价格、方便程度和之后的使用机会，并用「表面上……，实际上……」说明你的决定。"
+  },
+  {
+    slug: "economie-des-seniors", topic: "Société", theme: "社会", title: "人口老龄化与银发经济",
     fr: "Vieillissement et économie des seniors", mark: "龄",
     intro: "当一个社会慢慢变老，城市和企业可以做哪些改变？",
     goal: "Expliquer une évolution démographique et proposer une réponse concrète.",
@@ -363,7 +399,7 @@ window.lessons = [
     speaking: "你是社区工作人员。请用两分钟向居民介绍一项新服务，说清服务对象、使用方法和它能解决的问题。试用「随着……」和「对……来说……」。"
   },
   {
-    id: "C23", topic: "Commerce numérique", theme: "数字商业", title: "直播带货与双十一",
+    slug: "vente-en-direct", topic: "Consommation", theme: "消费", title: "直播带货与双十一",
     fr: "Vente en direct et fête du Double 11", mark: "播",
     intro: "为什么看着看着直播，就忍不住下单了？",
     goal: "Décrire les techniques de vente d’un direct et justifier une décision d’achat.",
@@ -377,7 +413,7 @@ window.lessons = [
     speaking: "两人扮演主播和买家。主播用一分钟介绍一件商品，说明优惠条件；买家问两个问题，比较价格，并用「与其……，不如……」解释自己的决定。"
   },
   {
-    id: "C24", topic: "Culture et modes de vie", theme: "文化与生活", title: "脆皮捏捏与情绪消费",
+    slug: "consommation-emotionnelle", topic: "Consommation", theme: "消费", title: "脆皮捏捏与情绪消费",
     fr: "Jouets à presser et consommation émotionnelle", mark: "捏",
     intro: "为几秒钟的快乐买单，值不值得？",
     goal: "Distinguer la valeur d’usage et la valeur émotionnelle, puis nuancer son avis.",
