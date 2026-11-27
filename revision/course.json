@@ -1,5 +1,5 @@
 {
-  "revision": 5,
+  "revision": 6,
   "lessons": [
     {
       "id": "lecon-1",
@@ -780,6 +780,926 @@
           ],
           "answer": "xiexie",
           "explanation": "谢谢 xièxie : xiè au quatrième ton, puis xie au ton neutre."
+        }
+      ]
+    },
+    {
+      "id": "lecon-4",
+      "number": 4,
+      "title": "Se rencontrer",
+      "titleZh": "第四课 · 问姓名与见面",
+      "heroZh": "我叫",
+      "published": true,
+      "description": "Saluer, demander le prénom et répondre. Lisez par groupes, puis refaites l’échange avec votre prénom.",
+      "items": [
+        {
+          "id": "bonjour",
+          "kind": "salutation",
+          "hanzi": "你好！",
+          "pinyin": "Nǐ hǎo!",
+          "fr": "Bonjour !",
+          "note": "Dites l’expression entière."
+        },
+        {
+          "id": "merci",
+          "kind": "salutation",
+          "hanzi": "谢谢！",
+          "pinyin": "Xièxie!",
+          "fr": "Merci !",
+          "note": "Dites l’expression entière."
+        },
+        {
+          "id": "revoir",
+          "kind": "salutation",
+          "hanzi": "再见！",
+          "pinyin": "Zàijiàn!",
+          "fr": "Au revoir !",
+          "note": "Dites l’expression entière."
+        },
+        {
+          "id": "prof",
+          "kind": "salutation",
+          "hanzi": "老师",
+          "pinyin": "lǎoshī",
+          "fr": "professeur",
+          "note": "Dites l’expression entière."
+        },
+        {
+          "id": "poli",
+          "kind": "salutation",
+          "hanzi": "老师，您好！",
+          "pinyin": "Lǎoshī, nín hǎo!",
+          "fr": "Bonjour ! · à votre professeur",
+          "note": ""
+        },
+        {
+          "id": "question-nom",
+          "kind": "identite",
+          "hanzi": "你叫什么名字？",
+          "pinyin": "Nǐ jiào shénme míngzi?",
+          "fr": "Comment tu t’appelles ?",
+          "note": "Les deuxièmes syllabes de shénme et míngzi sont légères."
+        },
+        {
+          "id": "nom",
+          "kind": "identite",
+          "hanzi": "我叫 Clément。",
+          "pinyin": "Wǒ jiào Clément.",
+          "fr": "Je m’appelle Clément.",
+          "note": "Remplacez seulement le prénom."
+        },
+        {
+          "id": "xinyi",
+          "kind": "identite",
+          "hanzi": "我叫 Xinyi。",
+          "pinyin": "Wǒ jiào Xinyi.",
+          "fr": "Je m’appelle Xinyi.",
+          "note": ""
+        },
+        {
+          "id": "et-toi",
+          "kind": "identite",
+          "hanzi": "你呢？",
+          "pinyin": "Nǐ ne?",
+          "fr": "Et toi ?",
+          "note": "ne est léger."
+        },
+        {
+          "id": "dialogue-prise",
+          "kind": "dialogue",
+          "hanzi": "你好！我叫……。你呢？",
+          "pinyin": "Nǐ hǎo! Wǒ jiào… Nǐ ne?",
+          "fr": "Bonjour ! Je m’appelle… Et toi ?",
+          "note": "Enregistrez votre réplique, puis refaites-la sans regarder."
+        }
+      ],
+      "sections": [
+        {
+          "id": "saluer",
+          "title": "Saluer",
+          "heading": "Un premier contact",
+          "description": "Choisissez la formule selon la personne et le moment.",
+          "kinds": [
+            "salutation"
+          ]
+        },
+        {
+          "id": "prenom",
+          "title": "Le prénom",
+          "heading": "Question → réponse → relance",
+          "description": "Lisez la question, répondez avec votre prénom, puis ajoutez 你呢？",
+          "kinds": [
+            "identite"
+          ],
+          "panels": [
+            {
+              "title": "Deux caractères, un mot · 两个字，一个词",
+              "text": "名字 · míngzi · prénom / nom. 名 et 字 sont deux caractères ; 名字 forme un mot. Le chinois écrit ne met généralement pas d’espace entre les mots."
+            }
+          ]
+        },
+        {
+          "id": "dialogue",
+          "title": "Lire à deux",
+          "heading": "Une première rencontre",
+          "description": "Lisez les deux rôles. Ensuite, cachez le dialogue et dites votre propre réplique.",
+          "kinds": [
+            "dialogue"
+          ],
+          "dialogue": [
+            [
+              "Xinyi",
+              "你好！你叫什么名字？",
+              "Nǐ hǎo! Nǐ jiào shénme míngzi?",
+              "Bonjour ! Comment tu t’appelles ?"
+            ],
+            [
+              "Clément",
+              "我叫 Clément。你呢？",
+              "Wǒ jiào Clément. Nǐ ne?",
+              "Je m’appelle Clément. Et toi ?"
+            ],
+            [
+              "Xinyi",
+              "我叫 Xinyi。",
+              "Wǒ jiào Xinyi.",
+              "Je m’appelle Xinyi."
+            ],
+            [
+              "Tous les deux",
+              "再见！",
+              "Zàijiàn!",
+              "Au revoir !"
+            ]
+          ]
+        },
+        {
+          "id": "scenes",
+          "title": "En situation",
+          "heading": "Choisir une réplique",
+          "description": "Choisissez, puis dites votre réponse à voix haute.",
+          "kinds": []
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "l4nom",
+          "prompt": "On vous demande : 你叫什么名字？",
+          "choices": [
+            {
+              "id": "nom",
+              "hanzi": "我叫 Clément。",
+              "pinyin": "Wǒ jiào Clément."
+            },
+            {
+              "id": "merci",
+              "hanzi": "谢谢！",
+              "pinyin": "Xièxie!"
+            },
+            {
+              "id": "revoir",
+              "hanzi": "再见！",
+              "pinyin": "Zàijiàn!"
+            }
+          ],
+          "answer": "nom",
+          "explanation": "我叫… sert à donner son nom."
+        },
+        {
+          "id": "l4relance",
+          "prompt": "Vous avez donné votre prénom. Comment renvoyer la question ?",
+          "choices": [
+            {
+              "id": "toi",
+              "hanzi": "你呢？",
+              "pinyin": "Nǐ ne?"
+            },
+            {
+              "id": "merci",
+              "hanzi": "谢谢！",
+              "pinyin": "Xièxie!"
+            },
+            {
+              "id": "prof",
+              "hanzi": "老师",
+              "pinyin": "lǎoshī"
+            }
+          ],
+          "answer": "toi",
+          "explanation": "你呢？ signifie « Et toi ? »."
+        }
+      ]
+    },
+    {
+      "id": "lecon-5",
+      "number": 5,
+      "title": "Mes premiers échanges",
+      "titleZh": "第五课 · 问候与自我介绍整合",
+      "heroZh": "你好",
+      "published": true,
+      "description": "Retrouvez les expressions connues et utilisez-les sans lire : saluer, donner son nom et sa nationalité, remercier et prendre congé.",
+      "items": [
+        {
+          "id": "bonjour",
+          "kind": "connu",
+          "hanzi": "你好！",
+          "pinyin": "Nǐ hǎo!",
+          "fr": "Bonjour !",
+          "note": "Lisez une fois, puis dites-le de mémoire."
+        },
+        {
+          "id": "vous",
+          "kind": "connu",
+          "hanzi": "你们好！",
+          "pinyin": "Nǐmen hǎo!",
+          "fr": "Bonjour ! · à plusieurs personnes",
+          "note": "Lisez une fois, puis dites-le de mémoire."
+        },
+        {
+          "id": "merci",
+          "kind": "connu",
+          "hanzi": "谢谢！",
+          "pinyin": "Xièxie!",
+          "fr": "Merci !",
+          "note": "Lisez une fois, puis dites-le de mémoire."
+        },
+        {
+          "id": "revoir",
+          "kind": "connu",
+          "hanzi": "再见！",
+          "pinyin": "Zàijiàn!",
+          "fr": "Au revoir !",
+          "note": "Lisez une fois, puis dites-le de mémoire."
+        },
+        {
+          "id": "prof",
+          "kind": "connu",
+          "hanzi": "老师",
+          "pinyin": "lǎoshī",
+          "fr": "professeur",
+          "note": "Lisez une fois, puis dites-le de mémoire."
+        },
+        {
+          "id": "nom",
+          "kind": "connu",
+          "hanzi": "我叫 Clément。",
+          "pinyin": "Wǒ jiào Clément.",
+          "fr": "Je m’appelle Clément.",
+          "note": "Lisez une fois, puis dites-le de mémoire."
+        },
+        {
+          "id": "francais",
+          "kind": "connu",
+          "hanzi": "我是法国人。",
+          "pinyin": "Wǒ shì Fǎguó rén.",
+          "fr": "Je suis français.",
+          "note": "Lisez une fois, puis dites-le de mémoire."
+        },
+        {
+          "id": "question-nom",
+          "kind": "question",
+          "hanzi": "你叫什么名字？",
+          "pinyin": "Nǐ jiào shénme míngzi?",
+          "fr": "Comment tu t’appelles ?",
+          "note": ""
+        },
+        {
+          "id": "question-pays",
+          "kind": "question",
+          "hanzi": "你是哪国人？",
+          "pinyin": "Nǐ shì nǎ guó rén?",
+          "fr": "Quelle est ta nationalité ?",
+          "note": ""
+        },
+        {
+          "id": "relance",
+          "kind": "question",
+          "hanzi": "你呢？",
+          "pinyin": "Nǐ ne?",
+          "fr": "Et toi ?",
+          "note": ""
+        },
+        {
+          "id": "presentation",
+          "kind": "production",
+          "hanzi": "你好！我叫 Clément。我是法国人。",
+          "pinyin": "Nǐ hǎo! Wǒ jiào Clément. Wǒ shì Fǎguó rén.",
+          "fr": "Bonjour ! Je m’appelle Clément. Je suis français.",
+          "note": "Remplacez les informations par les vôtres, puis essayez sans texte."
+        }
+      ],
+      "sections": [
+        {
+          "id": "connu",
+          "title": "Les expressions",
+          "heading": "Ce que je sais déjà dire",
+          "description": "Lisez, cachez les mots, puis retrouvez la formule adaptée.",
+          "kinds": [
+            "connu"
+          ]
+        },
+        {
+          "id": "questions",
+          "title": "Répondre",
+          "heading": "Reconnaître la question",
+          "description": "Répondez avec votre nom ou votre nationalité, puis posez la question à votre tour.",
+          "kinds": [
+            "question"
+          ],
+          "prompts": [
+            {
+              "cue": "Comment tu t’appelles ?",
+              "answerId": "nom"
+            },
+            {
+              "cue": "Quelle est ta nationalité ?",
+              "answerId": "francais"
+            }
+          ]
+        },
+        {
+          "id": "production",
+          "title": "À moi de parler",
+          "heading": "Une présentation courte",
+          "description": "Saluez, donnez votre nom et votre nationalité. Terminez par 你呢？",
+          "kinds": [
+            "production"
+          ],
+          "homework": "Enregistrez votre présentation une fois avec le texte, puis une fois sans lire. Comparez la fluidité et un seul point de prononciation."
+        },
+        {
+          "id": "scenes",
+          "title": "Je vérifie",
+          "heading": "Choisir selon la situation",
+          "description": "Dites d’abord votre réponse, puis choisissez.",
+          "kinds": []
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "l5groupe",
+          "prompt": "Vous saluez plusieurs personnes.",
+          "choices": [
+            {
+              "id": "vous",
+              "hanzi": "你们好！",
+              "pinyin": "Nǐmen hǎo!"
+            },
+            {
+              "id": "merci",
+              "hanzi": "谢谢！",
+              "pinyin": "Xièxie!"
+            },
+            {
+              "id": "bye",
+              "hanzi": "再见！",
+              "pinyin": "Zàijiàn!"
+            }
+          ],
+          "answer": "vous",
+          "explanation": "你们 s’adresse à plusieurs personnes."
+        },
+        {
+          "id": "l5nationalite",
+          "prompt": "On vous demande votre nationalité. Vous êtes français.",
+          "choices": [
+            {
+              "id": "francais",
+              "hanzi": "我是法国人。",
+              "pinyin": "Wǒ shì Fǎguó rén."
+            },
+            {
+              "id": "nom",
+              "hanzi": "我叫 Clément。",
+              "pinyin": "Wǒ jiào Clément."
+            },
+            {
+              "id": "merci",
+              "hanzi": "谢谢！",
+              "pinyin": "Xièxie!"
+            }
+          ],
+          "answer": "francais",
+          "explanation": "我是法国人 indique la nationalité."
+        },
+        {
+          "id": "l5merci",
+          "prompt": "Quelqu’un vous rend un service.",
+          "choices": [
+            {
+              "id": "merci",
+              "hanzi": "谢谢！",
+              "pinyin": "Xièxie!"
+            },
+            {
+              "id": "bye",
+              "hanzi": "再见！",
+              "pinyin": "Zàijiàn!"
+            },
+            {
+              "id": "nom",
+              "hanzi": "我叫 Clément。",
+              "pinyin": "Wǒ jiào Clément."
+            }
+          ],
+          "answer": "merci",
+          "explanation": "谢谢 sert à remercier."
+        },
+        {
+          "id": "l5bye",
+          "prompt": "La rencontre est terminée. Vous partez.",
+          "choices": [
+            {
+              "id": "bye",
+              "hanzi": "再见！",
+              "pinyin": "Zàijiàn!"
+            },
+            {
+              "id": "bonjour",
+              "hanzi": "你好！",
+              "pinyin": "Nǐ hǎo!"
+            },
+            {
+              "id": "prof",
+              "hanzi": "老师",
+              "pinyin": "lǎoshī"
+            }
+          ],
+          "answer": "bye",
+          "explanation": "再见 sert à prendre congé."
+        }
+      ]
+    },
+    {
+      "id": "lecon-6",
+      "number": 6,
+      "title": "Je viens de France",
+      "titleZh": "第六课 · 我来自法国",
+      "heroZh": "来自",
+      "published": true,
+      "description": "Six pays, une structure : 我来自… Évoquer son origine, comprendre la question et échanger avec ses propres informations.",
+      "items": [
+        {
+          "id": "pays-fr",
+          "kind": "pays",
+          "hanzi": "法国",
+          "pinyin": "Fǎguó",
+          "fr": "la France",
+          "note": "Retrouvez le nom chinois avant de lire le pinyin.",
+          "flag": "fr"
+        },
+        {
+          "id": "pays-cn",
+          "kind": "pays",
+          "hanzi": "中国",
+          "pinyin": "Zhōngguó",
+          "fr": "la Chine",
+          "note": "Retrouvez le nom chinois avant de lire le pinyin.",
+          "flag": "cn"
+        },
+        {
+          "id": "pays-us",
+          "kind": "pays",
+          "hanzi": "美国",
+          "pinyin": "Měiguó",
+          "fr": "les États-Unis",
+          "note": "Retrouvez le nom chinois avant de lire le pinyin.",
+          "flag": "us"
+        },
+        {
+          "id": "pays-gb",
+          "kind": "pays",
+          "hanzi": "英国",
+          "pinyin": "Yīngguó",
+          "fr": "le Royaume-Uni",
+          "note": "Retrouvez le nom chinois avant de lire le pinyin.",
+          "flag": "gb"
+        },
+        {
+          "id": "pays-de",
+          "kind": "pays",
+          "hanzi": "德国",
+          "pinyin": "Déguó",
+          "fr": "l’Allemagne",
+          "note": "Retrouvez le nom chinois avant de lire le pinyin.",
+          "flag": "de"
+        },
+        {
+          "id": "pays-jp",
+          "kind": "pays",
+          "hanzi": "日本",
+          "pinyin": "Rìběn",
+          "fr": "le Japon",
+          "note": "Retrouvez le nom chinois avant de lire le pinyin.",
+          "flag": "jp"
+        },
+        {
+          "id": "origine-fr",
+          "kind": "modele",
+          "hanzi": "我来自法国。",
+          "pinyin": "Wǒ láizì Fǎguó.",
+          "fr": "Je viens de France.",
+          "note": "Gardez 我来自 ; changez seulement le pays.",
+          "flag": "fr"
+        },
+        {
+          "id": "origine-cn",
+          "kind": "modele",
+          "hanzi": "我来自中国。",
+          "pinyin": "Wǒ láizì Zhōngguó.",
+          "fr": "Je viens de Chine.",
+          "note": "Gardez 我来自 ; changez seulement le pays.",
+          "flag": "cn"
+        },
+        {
+          "id": "origine-us",
+          "kind": "modele",
+          "hanzi": "我来自美国。",
+          "pinyin": "Wǒ láizì Měiguó.",
+          "fr": "Je viens des États-Unis.",
+          "note": "Gardez 我来自 ; changez seulement le pays.",
+          "flag": "us"
+        },
+        {
+          "id": "origine-gb",
+          "kind": "modele",
+          "hanzi": "我来自英国。",
+          "pinyin": "Wǒ láizì Yīngguó.",
+          "fr": "Je viens du Royaume-Uni.",
+          "note": "Gardez 我来自 ; changez seulement le pays.",
+          "flag": "gb"
+        },
+        {
+          "id": "origine-de",
+          "kind": "modele",
+          "hanzi": "我来自德国。",
+          "pinyin": "Wǒ láizì Déguó.",
+          "fr": "Je viens d’Allemagne.",
+          "note": "Gardez 我来自 ; changez seulement le pays.",
+          "flag": "de"
+        },
+        {
+          "id": "origine-jp",
+          "kind": "modele",
+          "hanzi": "我来自日本。",
+          "pinyin": "Wǒ láizì Rìběn.",
+          "fr": "Je viens du Japon.",
+          "note": "Gardez 我来自 ; changez seulement le pays.",
+          "flag": "jp"
+        },
+        {
+          "id": "question-origine",
+          "kind": "echange",
+          "hanzi": "你来自哪里？",
+          "pinyin": "Nǐ láizì nǎlǐ?",
+          "fr": "D’où viens-tu ?",
+          "note": "哪里 signifie « où ». Écoutez la question en classe, puis répondez sans lire."
+        },
+        {
+          "id": "reponse-origine",
+          "kind": "echange",
+          "hanzi": "我来自法国。你呢？",
+          "pinyin": "Wǒ láizì Fǎguó. Nǐ ne?",
+          "fr": "Je viens de France. Et toi ?",
+          "note": ""
+        },
+        {
+          "id": "question-nom",
+          "kind": "echange",
+          "hanzi": "你叫什么名字？",
+          "pinyin": "Nǐ jiào shénme míngzi?",
+          "fr": "Comment tu t’appelles ?",
+          "note": ""
+        },
+        {
+          "id": "nationalite",
+          "kind": "echange",
+          "hanzi": "我是法国人。",
+          "pinyin": "Wǒ shì Fǎguó rén.",
+          "fr": "Je suis français.",
+          "note": "L’origine et la nationalité peuvent être différentes. Répondez selon les faits."
+        },
+        {
+          "id": "presentation",
+          "kind": "echange",
+          "hanzi": "你好！我叫 Clément。我来自法国。你呢？",
+          "pinyin": "Nǐ hǎo! Wǒ jiào Clément. Wǒ láizì Fǎguó. Nǐ ne?",
+          "fr": "Bonjour ! Je m’appelle Clément. Je viens de France. Et toi ?",
+          "note": "Utilisez vos vraies informations. Enregistrez-vous, puis essayez sans lire."
+        }
+      ],
+      "sections": [
+        {
+          "id": "pays",
+          "title": "Les pays",
+          "heading": "Six pays à retrouver",
+          "description": "Regardez le drapeau. Dites le nom chinois, puis vérifiez le pinyin.",
+          "kinds": [
+            "pays"
+          ],
+          "homework": "Retrouvez les six pays dans un ordre différent. Concentrez-vous sur les tons, sans accélérer."
+        },
+        {
+          "id": "drill",
+          "title": "Changer le pays",
+          "heading": "Une structure, plusieurs réponses",
+          "description": "Dites une phrase entière à partir du drapeau et du français. Ouvrez ensuite le modèle pour vérifier et vous enregistrer.",
+          "kinds": [],
+          "prompts": [
+            {
+              "cue": "la France",
+              "flag": "fr",
+              "answerId": "origine-fr"
+            },
+            {
+              "cue": "les États-Unis",
+              "flag": "us",
+              "answerId": "origine-us"
+            },
+            {
+              "cue": "le Japon",
+              "flag": "jp",
+              "answerId": "origine-jp"
+            },
+            {
+              "cue": "la Chine",
+              "flag": "cn",
+              "answerId": "origine-cn"
+            },
+            {
+              "cue": "l’Allemagne",
+              "flag": "de",
+              "answerId": "origine-de"
+            },
+            {
+              "cue": "le Royaume-Uni",
+              "flag": "gb",
+              "answerId": "origine-gb"
+            }
+          ],
+          "panels": [
+            {
+              "title": "我来自 + 地点 · Wǒ láizì + lieu",
+              "text": "我来自法国。 · Wǒ láizì Fǎguó. · Je viens de France. Gardez 我来自 ; remplacez seulement le pays. Faites un deuxième tour dans un autre ordre."
+            }
+          ],
+          "homework": "Faites deux tours. Au deuxième, cachez la réponse et le pinyin. Une phrase complète par pays."
+        },
+        {
+          "id": "echange",
+          "title": "Questions et dialogue",
+          "heading": "Répondre et relancer",
+          "description": "Lisez les deux rôles, changez de rôle, puis utilisez vos informations.",
+          "kinds": [
+            "echange"
+          ],
+          "dialogue": [
+            [
+              "Xinyi",
+              "你好！我叫 Xinyi。你呢？",
+              "Nǐ hǎo! Wǒ jiào Xinyi. Nǐ ne?",
+              "Bonjour ! Je m’appelle Xinyi. Et toi ?"
+            ],
+            [
+              "Clément",
+              "我叫 Clément。",
+              "Wǒ jiào Clément.",
+              "Je m’appelle Clément."
+            ],
+            [
+              "Xinyi",
+              "你来自哪里？",
+              "Nǐ láizì nǎlǐ?",
+              "D’où viens-tu ?"
+            ],
+            [
+              "Clément",
+              "我来自法国。你呢？",
+              "Wǒ láizì Fǎguó. Nǐ ne?",
+              "Je viens de France. Et toi ?"
+            ],
+            [
+              "Xinyi",
+              "我来自中国。",
+              "Wǒ láizì Zhōngguó.",
+              "Je viens de Chine."
+            ],
+            [
+              "Tous les deux",
+              "再见！",
+              "Zàijiàn!",
+              "Au revoir !"
+            ]
+          ],
+          "homework": "Pendant 10 à 15 minutes : retrouvez trois pays, répondez aux questions sans lire, puis enregistrez une vraie présentation et une question."
+        },
+        {
+          "id": "scenes",
+          "title": "Je vérifie",
+          "heading": "Choisir, puis parler",
+          "description": "Ces exercices sont écrits. Dites votre réponse avant de cliquer ; ils ne mesurent pas votre compréhension orale.",
+          "kinds": []
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "l6-fr",
+          "prompt": "Rôle fictif : vous venez de France. Quelle phrase convient ?",
+          "choices": [
+            {
+              "id": "origine-fr",
+              "hanzi": "我来自法国。",
+              "pinyin": "Wǒ láizì Fǎguó."
+            },
+            {
+              "id": "origine-cn",
+              "hanzi": "我来自中国。",
+              "pinyin": "Wǒ láizì Zhōngguó."
+            },
+            {
+              "id": "origine-us",
+              "hanzi": "我来自美国。",
+              "pinyin": "Wǒ láizì Měiguó."
+            }
+          ],
+          "answer": "origine-fr",
+          "explanation": "我来自法国。 signifie « Je viens de France. »."
+        },
+        {
+          "id": "l6-cn",
+          "prompt": "Rôle fictif : vous venez de Chine. Quelle phrase convient ?",
+          "choices": [
+            {
+              "id": "origine-fr",
+              "hanzi": "我来自法国。",
+              "pinyin": "Wǒ láizì Fǎguó."
+            },
+            {
+              "id": "origine-cn",
+              "hanzi": "我来自中国。",
+              "pinyin": "Wǒ láizì Zhōngguó."
+            },
+            {
+              "id": "origine-us",
+              "hanzi": "我来自美国。",
+              "pinyin": "Wǒ láizì Měiguó."
+            }
+          ],
+          "answer": "origine-cn",
+          "explanation": "我来自中国。 signifie « Je viens de Chine. »."
+        },
+        {
+          "id": "l6-us",
+          "prompt": "Rôle fictif : vous venez des États-Unis. Quelle phrase convient ?",
+          "choices": [
+            {
+              "id": "origine-fr",
+              "hanzi": "我来自法国。",
+              "pinyin": "Wǒ láizì Fǎguó."
+            },
+            {
+              "id": "origine-cn",
+              "hanzi": "我来自中国。",
+              "pinyin": "Wǒ láizì Zhōngguó."
+            },
+            {
+              "id": "origine-us",
+              "hanzi": "我来自美国。",
+              "pinyin": "Wǒ láizì Měiguó."
+            }
+          ],
+          "answer": "origine-us",
+          "explanation": "我来自美国。 signifie « Je viens des États-Unis. »."
+        },
+        {
+          "id": "l6-gb",
+          "prompt": "Rôle fictif : vous venez du Royaume-Uni. Quelle phrase convient ?",
+          "choices": [
+            {
+              "id": "origine-fr",
+              "hanzi": "我来自法国。",
+              "pinyin": "Wǒ láizì Fǎguó."
+            },
+            {
+              "id": "origine-cn",
+              "hanzi": "我来自中国。",
+              "pinyin": "Wǒ láizì Zhōngguó."
+            },
+            {
+              "id": "origine-us",
+              "hanzi": "我来自美国。",
+              "pinyin": "Wǒ láizì Měiguó."
+            },
+            {
+              "id": "origine-gb",
+              "hanzi": "我来自英国。",
+              "pinyin": "Wǒ láizì Yīngguó."
+            }
+          ],
+          "answer": "origine-gb",
+          "explanation": "我来自英国。 signifie « Je viens du Royaume-Uni. »."
+        },
+        {
+          "id": "l6-de",
+          "prompt": "Rôle fictif : vous venez d’Allemagne. Quelle phrase convient ?",
+          "choices": [
+            {
+              "id": "origine-fr",
+              "hanzi": "我来自法国。",
+              "pinyin": "Wǒ láizì Fǎguó."
+            },
+            {
+              "id": "origine-cn",
+              "hanzi": "我来自中国。",
+              "pinyin": "Wǒ láizì Zhōngguó."
+            },
+            {
+              "id": "origine-us",
+              "hanzi": "我来自美国。",
+              "pinyin": "Wǒ láizì Měiguó."
+            },
+            {
+              "id": "origine-de",
+              "hanzi": "我来自德国。",
+              "pinyin": "Wǒ láizì Déguó."
+            }
+          ],
+          "answer": "origine-de",
+          "explanation": "我来自德国。 signifie « Je viens d’Allemagne. »."
+        },
+        {
+          "id": "l6-jp",
+          "prompt": "Rôle fictif : vous venez du Japon. Quelle phrase convient ?",
+          "choices": [
+            {
+              "id": "origine-fr",
+              "hanzi": "我来自法国。",
+              "pinyin": "Wǒ láizì Fǎguó."
+            },
+            {
+              "id": "origine-cn",
+              "hanzi": "我来自中国。",
+              "pinyin": "Wǒ láizì Zhōngguó."
+            },
+            {
+              "id": "origine-us",
+              "hanzi": "我来自美国。",
+              "pinyin": "Wǒ láizì Měiguó."
+            },
+            {
+              "id": "origine-jp",
+              "hanzi": "我来自日本。",
+              "pinyin": "Wǒ láizì Rìběn."
+            }
+          ],
+          "answer": "origine-jp",
+          "explanation": "我来自日本。 signifie « Je viens du Japon. »."
+        },
+        {
+          "id": "l6question",
+          "prompt": "Vous voulez demander à une personne d’où elle vient.",
+          "choices": [
+            {
+              "id": "origine",
+              "hanzi": "你来自哪里？",
+              "pinyin": "Nǐ láizì nǎlǐ?"
+            },
+            {
+              "id": "nom",
+              "hanzi": "你叫什么名字？",
+              "pinyin": "Nǐ jiào shénme míngzi?"
+            },
+            {
+              "id": "merci",
+              "hanzi": "谢谢！",
+              "pinyin": "Xièxie!"
+            }
+          ],
+          "answer": "origine",
+          "explanation": "你来自哪里？ demande l’origine."
+        },
+        {
+          "id": "l6relance",
+          "prompt": "Vous avez répondu : 我来自法国。 Comment renvoyer la question ?",
+          "choices": [
+            {
+              "id": "toi",
+              "hanzi": "你呢？",
+              "pinyin": "Nǐ ne?"
+            },
+            {
+              "id": "bye",
+              "hanzi": "再见！",
+              "pinyin": "Zàijiàn!"
+            },
+            {
+              "id": "prof",
+              "hanzi": "老师",
+              "pinyin": "lǎoshī"
+            }
+          ],
+          "answer": "toi",
+          "explanation": "Ajoutez 你呢？ pour dire « Et toi ? »."
         }
       ]
     }
