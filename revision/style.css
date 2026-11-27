@@ -14,6 +14,8 @@
 
 /* Oral lessons: country cues, retrieval and short dialogues */
 .country-flag{display:block;object-fit:contain;width:120px;height:80px;margin:0 auto 18px;filter:drop-shadow(0 0 1px #aaa)}
-.oral-drills{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.oral-prompt{margin:0}.oral-prompt h3{text-align:center}.oral-prompt>p{font-size:.9rem;color:var(--muted)}.oral-prompt summary{cursor:pointer;color:var(--green);font-weight:650;padding:12px 0}.oral-prompt .sound-card{margin-top:12px;padding:18px;border-radius:12px}.oral-prompt .hanzi{font-size:clamp(27px,3vw,40px)}.oral-prompt .pinyin{font-size:1.3rem;overflow-wrap:anywhere}.oral-prompt .country-flag{display:none}
+.oral-drills{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.oral-prompt{margin:0}.oral-prompt h3{text-align:center}.oral-prompt>p{font-size:.9rem;color:var(--muted)}.oral-prompt summary{cursor:pointer;color:var(--green);font-weight:650;padding:12px 0}.oral-prompt .sound-card{margin-top:12px;padding:18px;border-radius:12px}.oral-prompt .hanzi{font-size:clamp(27px,3vw,40px)}.oral-prompt .pinyin{font-size:1.3rem;overflow-wrap:anywhere}.oral-prompt .sound-card .country-flag{display:none}
 .oral-dialogue{display:grid;gap:14px}.oral-dialogue>div{border-left:3px solid var(--sage);padding-left:16px}.oral-dialogue b{color:var(--orange);font-size:.85rem}.oral-dialogue p{margin:4px 0}.oral-dialogue p[lang]{font-size:1.35rem}.dialogue-py{color:var(--orange)}.lesson-grid .hanzi{font-size:clamp(28px,3.5vw,48px);overflow-wrap:anywhere;line-height:1.5}.lesson-grid .card-main{padding-bottom:8px}.scenario-options{flex-wrap:wrap}.scenario-options .answer{min-width:0;overflow-wrap:anywhere}
 @media(max-width:650px){.oral-drills{grid-template-columns:1fr}.oral-prompt .hanzi{font-size:30px}.country-flag{width:108px;height:72px}.scenario-options{display:grid;grid-template-columns:1fr}.scenario-options .answer{width:100%}.lesson-grid .hanzi{font-size:34px}}
+
+
