@@ -1,0 +1,1325 @@
+{
+  "version": 1,
+  "student": "Clément",
+  "goal": "2027-09",
+  "modules": [
+    {
+      "id": "m1",
+      "title": "基本个人交流\nPremiers échanges",
+      "goal": "介绍姓名、国籍、身份和兴趣，完成基本问答\nPrésenter son identité, sa nationalité et ses goûts, puis échanger."
+    },
+    {
+      "id": "m2",
+      "title": "日常生活与习惯\nVie quotidienne et habitudes",
+      "goal": "描述一天、时间与频率，听懂相关问题\nDécrire sa journée, les horaires et les habitudes, et comprendre les questions."
+    },
+    {
+      "id": "m3",
+      "title": "人物与家乡\nEntourage et ville d’origine",
+      "goal": "介绍重要的人和家乡，主动了解对方\nPrésenter un proche et sa ville, puis s’intéresser à l’autre."
+    },
+    {
+      "id": "m4",
+      "title": "个人经历\nExpériences personnelles",
+      "goal": "讲一段真实经历，回答时间人物等追问\nRaconter une expérience réelle et répondre sur les personnes et les dates."
+    },
+    {
+      "id": "m5",
+      "title": "原因与感受\nRaisons et sentiments",
+      "goal": "回答后补充一个具体原因、感受或例子\nAjouter une raison, un sentiment ou un exemple pertinent."
+    },
+    {
+      "id": "m6",
+      "title": "中文学习与北京\nChinois et attentes pour Pékin",
+      "goal": "介绍中文学习体验与北京期待\nParler de son apprentissage du chinois et de ses attentes pour Pékin."
+    },
+    {
+      "id": "m7",
+      "title": "变化问法与追问\nVariantes et relances",
+      "goal": "换声音、顺序或问法后仍能交流\nÉchanger malgré un changement de voix, d’ordre ou de formulation."
+    },
+    {
+      "id": "m8",
+      "title": "采访与自然交流\nInterviews et conversations",
+      "goal": "完成3—5分钟熟悉主题采访，必要时主动确认\nParticiper à une interview de 3 à 5 minutes sur des sujets familiers, avec des demandes de clarification si besoin."
+    }
+  ],
+  "weeks": [
+    {
+      "id": "w1",
+      "number": 1,
+      "module": "m1",
+      "title": "姓名、国籍、身份\nPrénom, nationalité, identité",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "听基本介绍，准备三项真实信息\nÉcouter une présentation et préparer trois informations réelles."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "姓名复习与国籍问答\nRevoir les prénoms et demander la nationalité."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "运动员身份与反问\nSe présenter comme athlète et renvoyer la question."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "见面交流；保存起点录音\nPremier échange et enregistrement de départ."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "录三至五句介绍；听三个问题先回答\nEnregistrer 3 à 5 phrases et répondre à trois questions avant le modèle."
+        }
+      ]
+    },
+    {
+      "id": "w2",
+      "number": 2,
+      "module": "m1",
+      "title": "家乡与居住地\nVille d’origine et lieu de vie",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "听来源介绍，选自己的家乡照片\nÉcouter une présentation et choisir une photo de sa ville."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "来自哪里\nDire d’où l’on vient."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "现在住在哪里\nDire où l’on habite actuellement."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "区分家乡与现居地，随机问答\nDistinguer origine et domicile dans des questions mélangées."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "用真实信息说来源与居住地\nPrésenter son origine et son domicile réels."
+        }
+      ]
+    },
+    {
+      "id": "w3",
+      "number": 3,
+      "module": "m1",
+      "title": "兴趣与喜好\nCentres d’intérêt et goûts",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "选三至四项真实兴趣，听核心词\nChoisir 3 ou 4 goûts réels et écouter les mots clés."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "喜欢与不喜欢\nExprimer ce que l’on aime ou non."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "问喜好、回应共同点\nPoser des questions sur les goûts et réagir aux points communs."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "不看答案谈兴趣\nParler de ses goûts sans réponse écrite."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "录两项喜好；向老师提一个问题\nEnregistrer deux goûts et poser une question à Xinyi."
+        }
+      ]
+    },
+    {
+      "id": "w4",
+      "number": 4,
+      "module": "m1",
+      "title": "个人信息整合\nPrésentation personnelle complète",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "回听前三周录音，选一个薄弱点\nRéécouter les trois semaines et choisir un point à travailler."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "组合姓名国籍身份兴趣\nRelier prénom, nationalité, identité et goûts."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "换顺序与问法\nChanger l’ordre et la formulation des questions."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "阶段检查1\nBilan 1."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "保存新介绍，与起点对比\nConserver une nouvelle présentation et la comparer au départ."
+        }
+      ]
+    },
+    {
+      "id": "w5",
+      "number": 5,
+      "module": "m2",
+      "title": "数字与时间\nNombres et horaires",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "听与日常生活相关的数字时间\nÉcouter des nombres et horaires utiles au quotidien."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "数字和常用时间\nNombres et horaires courants."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "询问几点，听懂时间\nDemander et comprendre l’heure."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "安排简单会面\nFixer un rendez-vous simple."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "录三个真实时间；听时间选择\nEnregistrer trois horaires réels et reconnaître des horaires à l’écoute."
+        }
+      ]
+    },
+    {
+      "id": "w6",
+      "number": 6,
+      "module": "m2",
+      "title": "我的一天\nMa journée",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "听一天介绍，选自己的活动图片\nÉcouter une journée type et choisir ses propres activités."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "起床吃饭训练休息\nSe lever, manger, s’entraîner et se reposer."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "时间加活动，表达顺序\nAssocier heures et activités, puis les ordonner."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "描述一个训练日\nDécrire une journée d’entraînement."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "录约40秒日常介绍\nEnregistrer environ 40 secondes sur sa journée."
+        }
+      ]
+    },
+    {
+      "id": "w7",
+      "number": 7,
+      "module": "m2",
+      "title": "频率与时长\nFréquence et durée",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "听每天经常有时候的例子\nÉcouter des exemples : chaque jour, souvent, parfois."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "频率表达\nExprimer la fréquence."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "每周几次、一次多久\nDire combien de fois par semaine et pendant combien de temps."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "比较生活习惯\nComparer ses habitudes avec celles d’une autre personne."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "根据真实训练频率回答问题\nRépondre selon sa fréquence réelle d’entraînement."
+        }
+      ]
+    },
+    {
+      "id": "w8",
+      "number": 8,
+      "module": "m2",
+      "title": "日常主题整合\nSynthèse du quotidien",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "听陌生人物的短介绍\nÉcouter la journée d’une personne inconnue."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "理解他人日常\nComprendre le quotidien d’une autre personne."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "让自己的介绍更连贯\nRendre sa présentation plus cohérente."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "阶段检查2\nBilan 2."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "保存日常介绍与随机问答\nConserver une présentation et un échange de questions aléatoires."
+        }
+      ]
+    },
+    {
+      "id": "w9",
+      "number": 9,
+      "module": "m3",
+      "title": "我身边的人\nMon entourage",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "选一位愿意介绍的人，听示范\nChoisir une personne à présenter et écouter un modèle."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "他她与人物身份\nIl, elle et l’identité d’une personne."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "关系和兴趣\nDécrire la relation et les goûts."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "介绍人物，接受两项追问\nPrésenter une personne et répondre à deux relances."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "录人物介绍，不分享不愿谈的隐私\nEnregistrer une présentation sans révéler ce que l’on souhaite garder privé."
+        }
+      ]
+    },
+    {
+      "id": "w10",
+      "number": 10,
+      "module": "m3",
+      "title": "人物特点\nQualités d’une personne",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "选照片和两项真实特点\nChoisir une photo et deux qualités réelles."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "友好认真等适用特点\nDes qualités utiles : sympathique, sérieux, etc."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "用具体事实补充特点\nIllustrer une qualité par un fait."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "说明此人为何重要\nExpliquer pourquoi cette personne est importante."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "准备一个体现特点的小例子\nPréparer un petit exemple illustrant une qualité."
+        }
+      ]
+    },
+    {
+      "id": "w11",
+      "number": 11,
+      "module": "m3",
+      "title": "家乡或城市\nVille d’origine ou de résidence",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "选城市照片，听短介绍\nChoisir des photos et écouter une courte présentation."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "地方位置和生活特点\nSituer un lieu et décrire la vie sur place."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "喜欢这里的什么\nDire ce que l’on apprécie dans cette ville."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "介绍家乡或居住地\nPrésenter sa ville à quelqu’un qui ne la connaît pas."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "录一段短介绍并问老师的家乡\nEnregistrer une présentation et interroger Xinyi sur sa ville."
+        }
+      ]
+    },
+    {
+      "id": "w12",
+      "number": 12,
+      "module": "m3",
+      "title": "人物地点整合\nSynthèse : entourage et lieux",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "回听人物和城市介绍\nRéécouter ses présentations de personnes et de villes."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "混合人物家乡日常\nMélanger entourage, ville et quotidien."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "主动提问并回应信息\nPoser des questions et réagir aux réponses."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "阶段检查3\nBilan 3."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "保存双向交流录音\nConserver un échange dans les deux sens."
+        }
+      ]
+    },
+    {
+      "id": "w13",
+      "number": 13,
+      "module": "m4",
+      "title": "我什么时候开始\nQuand j’ai commencé",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "整理本人经历时间线\nPréparer une frise de son parcours réel."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "什么时候开始活动\nDire quand une activité a commencé."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "开始时的年龄或阶段\nPréciser l’âge ou l’étape de vie au début."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "用真实信息回答开始时间\nRépondre avec ses informations réelles."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "录三项时间事实，不编造经历\nEnregistrer trois repères temporels sans inventer d’expérience."
+        }
+      ]
+    },
+    {
+      "id": "w14",
+      "number": 14,
+      "module": "m4",
+      "title": "以前与现在\nAvant et maintenant",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "听简单变化描述\nÉcouter un exemple de changement simple."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "以前现在的区别\nDistinguer avant et maintenant."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "生活或习惯对照\nComparer la vie ou les habitudes."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "描述自己的一个变化\nDécrire un changement personnel."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "录一个真实变化\nEnregistrer un changement réel."
+        }
+      ]
+    },
+    {
+      "id": "w15",
+      "number": 15,
+      "module": "m4",
+      "title": "一段个人经历\nUne expérience personnelle",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "列一次经历的法语关键词\nChoisir une expérience et noter des mots clés en français."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "时间地点人物事件\nPrésenter quand, où, avec qui et ce qui s’est passé."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "加入简单结果或感受\nAjouter un résultat ou un sentiment simple."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "讲短故事，回答细节问题\nRaconter une histoire courte et répondre sur les détails."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "用关键词重讲一次经历\nRaconter à nouveau à partir de mots clés."
+        }
+      ]
+    },
+    {
+      "id": "w16",
+      "number": 16,
+      "module": "m4",
+      "title": "经历主题整合\nSynthèse des expériences",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "听同一故事的两种表达\nÉcouter deux versions d’une même histoire."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "辨认关键事实\nRepérer les faits essentiels."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "从不同问题进入故事\nAborder une histoire par des questions différentes."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "阶段检查4\nBilan 4."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "保存故事和未排练追问\nConserver le récit et des relances non répétées à l’avance."
+        }
+      ]
+    },
+    {
+      "id": "w17",
+      "number": 17,
+      "module": "m5",
+      "title": "为什么喜欢\nPourquoi j’aime cette activité",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "听两至三种简单原因\nÉcouter deux ou trois raisons simples."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "为什么喜欢一种活动\nDire pourquoi on aime une activité."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "回答加一个具体原因\nRépondre en donnant une raison précise."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "喜好与原因混合问答\nMélanger questions sur les goûts et les raisons."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "录一个原因，避免只说很好\nEnregistrer une raison précise plutôt que simplement « c’est bien »."
+        }
+      ]
+    },
+    {
+      "id": "w18",
+      "number": 18,
+      "module": "m5",
+      "title": "我的选择与动力\nMes choix et ma motivation",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "用法语明确自己真实动机\nClarifier sa motivation réelle en français."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "为什么选择这项运动\nExpliquer le choix de son sport."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "重要的人兴趣或经历\nÉvoquer une personne, un intérêt ou une expérience importante."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "回答关于选择的问题\nRépondre à des questions sur ses choix."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "录真实动机，不背教师编的故事\nEnregistrer sa vraie motivation, sans histoire inventée par le professeur."
+        }
+      ]
+    },
+    {
+      "id": "w19",
+      "number": 19,
+      "module": "m5",
+      "title": "感受与困难\nSentiments et difficultés",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "听常见感受，选本人经历\nÉcouter des sentiments courants et choisir une expérience réelle."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "开心紧张累困难\nHeureux, nerveux, fatigué, difficile, etc."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "感受与具体情境\nAssocier un sentiment à une situation concrète."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "表达困难及需要的帮助\nDécrire une difficulté et l’aide nécessaire."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "录一次感受和对应情境\nEnregistrer un sentiment avec sa situation."
+        }
+      ]
+    },
+    {
+      "id": "w20",
+      "number": 20,
+      "module": "m5",
+      "title": "原因感受整合\nSynthèse : raisons et sentiments",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "听含理由和例子的短回答\nÉcouter une réponse avec une raison et un exemple."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "直接回答加理由\nRépondre directement et expliquer pourquoi."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "需要时加入一个例子\nAjouter un exemple si cela aide."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "阶段检查5\nBilan 5."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "保存能展开的回答\nConserver une réponse développée."
+        }
+      ]
+    },
+    {
+      "id": "w21",
+      "number": 21,
+      "module": "m6",
+      "title": "我的中文学习\nMon apprentissage du chinois",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "回听早期与当前录音\nRéécouter ses premiers enregistrements et les plus récents."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "学了多久，怎么学\nDire depuis quand et comment on apprend."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "哪里容易哪里困难\nDire ce qui paraît facile ou difficile."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "介绍学习情况\nPrésenter son apprentissage."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "录学习方法和一个困难\nEnregistrer une méthode de travail et une difficulté."
+        }
+      ]
+    },
+    {
+      "id": "w22",
+      "number": 22,
+      "module": "m6",
+      "title": "为什么学中文\nPourquoi j’apprends le chinois",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "先用法语说明真正动机\nExprimer d’abord sa motivation réelle en français."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "表达自己的学习原因\nDire pourquoi on apprend le chinois."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "中文对自己的意义\nExpliquer ce que cela représente pour soi."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "同主题不同问法\nComprendre plusieurs formulations de la même question."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "用两种问题引出真实原因\nRépondre à deux formulations sur sa motivation réelle."
+        }
+      ]
+    },
+    {
+      "id": "w23",
+      "number": 23,
+      "module": "m6",
+      "title": "我对北京的期待\nMes attentes pour Pékin",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "选择本人感兴趣的图片活动\nChoisir des lieux ou activités qui intéressent vraiment."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "想去哪里想做什么\nDire où l’on veut aller et ce que l’on veut faire."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "期待计划与选择\nExprimer attentes, projets et choix."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "讨论真实期待\nDiscuter de ses attentes réelles."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "录两项计划或想尝试的事\nEnregistrer deux projets ou choses à essayer."
+        }
+      ]
+    },
+    {
+      "id": "w24",
+      "number": 24,
+      "module": "m6",
+      "title": "中文与北京整合\nSynthèse : chinois et Pékin",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "听中文学习或旅行短材料\nÉcouter un court document sur le chinois ou le voyage."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "对接触过的事物谈感受\nDonner son avis sur ce que l’on connaît."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "分清了解体验过想尝试\nDistinguer connaître, avoir essayé et vouloir essayer."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "阶段检查6\nBilan 6."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "保存中文学习与北京期待采访\nConserver une interview sur le chinois et les attentes pour Pékin."
+        }
+      ]
+    },
+    {
+      "id": "w25",
+      "number": 25,
+      "module": "m7",
+      "title": "同一问题不同问法\nUne question, plusieurs formulations",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "听熟悉问题的不同表达\nÉcouter des variantes de questions familières."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "识别问题询问的信息\nComprendre quelle information est demandée."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "简单较长礼貌问法\nReconnaître les formulations simples, longues ou polies."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "换问法后的随机问答\nRépondre à des variantes dans un ordre aléatoire."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "听问题先判断在问什么\nIdentifier d’abord ce que demande chaque question."
+        }
+      ]
+    },
+    {
+      "id": "w26",
+      "number": 26,
+      "module": "m7",
+      "title": "听不同的人\nComprendre plusieurs voix",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "听两位说话者的清楚录音\nÉcouter deux personnes parlant clairement."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "适应不同声音\nS’adapter à une autre voix."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "重复改述与确认\nDemander de répéter, reformuler et confirmer."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "换提问者，完成熟悉主题\nÉchanger sur un sujet familier avec un autre interlocuteur."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "回听并标出需要重复的问题\nRéécouter et repérer les questions qui ont nécessité une répétition."
+        }
+      ]
+    },
+    {
+      "id": "w27",
+      "number": 27,
+      "module": "m7",
+      "title": "继续回答追问\nRépondre aux relances",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "听简短追问示范\nÉcouter des exemples de relances courtes."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "何时谁为什么等追问\nRépondre à quand, qui, pourquoi, etc."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "展开旧答案中的细节\nDévelopper un détail d’une réponse connue."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "回应一至两次追问\nRépondre à une ou deux relances."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "录主回答和两项相关细节\nEnregistrer une réponse principale et deux détails pertinents."
+        }
+      ]
+    },
+    {
+      "id": "w28",
+      "number": 28,
+      "module": "m7",
+      "title": "灵活交流检查\nBilan de souplesse à l’oral",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "回看最主要的个人薄弱项\nRevoir sa difficulté principale."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "补听觉理解\nRenforcer la compréhension orale."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "补组织答案或清晰度\nRenforcer la construction ou la clarté des réponses."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "阶段检查7\nBilan 7."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "保存陌生顺序的熟悉主题问答\nConserver un échange familier dans un ordre nouveau."
+        }
+      ]
+    },
+    {
+      "id": "w29",
+      "number": 29,
+      "module": "m8",
+      "title": "第一次综合采访\nPremière interview complète",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "整理愿意谈的主题关键词\nPréparer des mots clés sur les sujets que l’on souhaite aborder."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "个人介绍与基本问题\nPrésentation personnelle et questions de base."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "兴趣日常经历混合\nMélanger goûts, quotidien et expériences."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "一轮采访后分析片段\nRéaliser une interview et analyser un extrait."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "记录两项成功和一个困难\nNoter deux réussites et une difficulté."
+        }
+      ]
+    },
+    {
+      "id": "w30",
+      "number": 30,
+      "module": "m8",
+      "title": "换人换顺序采访\nChanger d’interlocuteur et d’ordre",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "只看主题范围，不背全文\nConnaître les thèmes, sans mémoriser un texte complet."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "改变问题顺序\nChanger l’ordre des questions."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "有限的未排练追问\nAjouter quelques relances non préparées."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "换提问者检查迁移\nChanger d’interlocuteur pour vérifier le transfert."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "重做最困难的一个回答\nReprendre la réponse qui a posé le plus de difficultés."
+        }
+      ]
+    },
+    {
+      "id": "w31",
+      "number": 31,
+      "module": "m8",
+      "title": "采访与自然聊天\nInterview et conversation naturelle",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "更新真实生活与近期信息\nActualiser ses informations et son vécu récent."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "最近生活与期待\nParler de sa vie récente et de ses attentes."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "主动问别人，回应信息\nInterroger l’autre et réagir à ses informations."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "采访后转入双向聊天\nPasser de l’interview à un échange dans les deux sens."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "录一个主动发起的交流\nEnregistrer un échange que l’on a initié soi-même."
+        }
+      ]
+    },
+    {
+      "id": "w32",
+      "number": 32,
+      "module": "m8",
+      "title": "出发前综合检查\nBilan avant le départ",
+      "tasks": [
+        {
+          "id": "prep",
+          "title": "预习\nPréparation",
+          "content": "回听起点与近期记录\nRéécouter le départ et les enregistrements récents."
+        },
+        {
+          "id": "mon",
+          "title": "周一课堂\nCours du lundi",
+          "content": "集中解决主要障碍\nTraiter les obstacles les plus importants."
+        },
+        {
+          "id": "wed",
+          "title": "周三课堂\nCours du mercredi",
+          "content": "综合模拟与信息更新\nSimulation complète et mise à jour des informations."
+        },
+        {
+          "id": "fri",
+          "title": "周五课堂\nCours du vendredi",
+          "content": "最终检查与表达清单\nBilan final et liste personnelle d’expressions."
+        },
+        {
+          "id": "home",
+          "title": "课后练习\nPratique personnelle",
+          "content": "整理自己的实用表达和求助方式\nRassembler ses expressions utiles et ses façons de demander de l’aide."
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "id": "C01",
+      "module": "m1",
+      "title": "姓名国籍身份问答\nMe présenter",
+      "criterion": "不看全文，介绍真实基本信息并回答问题\nSans texte complet, donner ses informations réelles et répondre aux questions."
+    },
+    {
+      "id": "C02",
+      "module": "m1",
+      "title": "问兴趣并反问\nParler de mes goûts",
+      "criterion": "表达真实喜好，主动问对方并回应\nExprimer ses goûts réels, interroger l’autre et réagir."
+    },
+    {
+      "id": "C03",
+      "module": "m1",
+      "title": "请求重复\nDemander de répéter",
+      "criterion": "没听清时主动请求重复，再继续交流\nDemander spontanément de répéter puis poursuivre l’échange."
+    },
+    {
+      "id": "C04",
+      "module": "m2",
+      "title": "说一天的活动\nDécrire ma journée",
+      "criterion": "说明几个活动及顺序或时间\nDécrire plusieurs activités avec leur ordre ou leurs horaires."
+    },
+    {
+      "id": "C05",
+      "module": "m2",
+      "title": "听懂并确认时间\nComprendre un horaire",
+      "criterion": "听到时间后能说出或确认关键信息\nRepérer ou confirmer un horaire entendu."
+    },
+    {
+      "id": "C06",
+      "module": "m2",
+      "title": "谈频率与时长\nParler de mes habitudes",
+      "criterion": "根据真实情况回答多久或多经常\nRépondre avec sa fréquence ou sa durée réelles."
+    },
+    {
+      "id": "C07",
+      "module": "m3",
+      "title": "介绍一个人\nPrésenter une personne",
+      "criterion": "介绍关系、身份或特点并回答追问\nPrésenter une relation, une identité ou une qualité et répondre à une relance."
+    },
+    {
+      "id": "C08",
+      "module": "m3",
+      "title": "介绍家乡或城市\nPrésenter ma ville",
+      "criterion": "说明地点与一个真实特点\nSituer un lieu et en donner une caractéristique réelle."
+    },
+    {
+      "id": "C09",
+      "module": "m3",
+      "title": "主动了解别人\nPoser mes questions",
+      "criterion": "主动提问，并对得到的信息作回应\nPoser spontanément une question et réagir à la réponse."
+    },
+    {
+      "id": "C10",
+      "module": "m4",
+      "title": "说什么时候开始\nRaconter mes débuts",
+      "criterion": "说清开始一项活动的时间或阶段\nDire quand, ou à quelle étape de sa vie, une activité a commencé."
+    },
+    {
+      "id": "C11",
+      "module": "m4",
+      "title": "比较以前与现在\nDécrire un changement",
+      "criterion": "说出一个真实变化\nDécrire un changement personnel réel."
+    },
+    {
+      "id": "C12",
+      "module": "m4",
+      "title": "讲一段经历\nRaconter une expérience",
+      "criterion": "用简单句说事件，并回答细节问题\nRaconter un événement en phrases simples et répondre sur les détails."
+    },
+    {
+      "id": "C13",
+      "module": "m5",
+      "title": "给出具体原因\nExpliquer pourquoi",
+      "criterion": "直接回答后补充一个相关原因\nAprès la réponse directe, ajouter une raison pertinente."
+    },
+    {
+      "id": "C14",
+      "module": "m5",
+      "title": "表达个人感受\nExprimer mes sentiments",
+      "criterion": "说明感受及对应情境\nExprimer un sentiment et la situation correspondante."
+    },
+    {
+      "id": "C15",
+      "module": "m5",
+      "title": "补充一个例子\nDonner un exemple",
+      "criterion": "根据问题增加相关细节或例子\nAjouter un détail ou un exemple adapté à la question."
+    },
+    {
+      "id": "C16",
+      "module": "m6",
+      "title": "介绍中文学习\nParler de mon chinois",
+      "criterion": "说明方法、时间或一个困难\nPrésenter sa méthode, la durée de son apprentissage ou une difficulté."
+    },
+    {
+      "id": "C17",
+      "module": "m6",
+      "title": "解释学习动机\nExpliquer ma motivation",
+      "criterion": "按本人真实想法回答不同问法\nRépondre avec sa motivation réelle à différentes formulations."
+    },
+    {
+      "id": "C18",
+      "module": "m6",
+      "title": "谈北京期待\nParler de Pékin",
+      "criterion": "区分体验过和想尝试，说明真实计划\nDistinguer vécu et projets, puis exprimer ses attentes réelles."
+    },
+    {
+      "id": "C19",
+      "module": "m7",
+      "title": "听懂不同问法\nComprendre les variantes",
+      "criterion": "换问题表达后仍能回答相关内容\nRépondre de façon pertinente quand la question est reformulée."
+    },
+    {
+      "id": "C20",
+      "module": "m7",
+      "title": "适应不同说话者\nComprendre une autre voix",
+      "criterion": "换提问者后仍能交流，允许主动求助\nÉchanger avec une autre personne et demander de l’aide si nécessaire."
+    },
+    {
+      "id": "C21",
+      "module": "m7",
+      "title": "回答继续追问\nRépondre aux relances",
+      "criterion": "主回答后继续回应一至两项相关追问\nAprès une première réponse, répondre à une ou deux relances pertinentes."
+    },
+    {
+      "id": "C22",
+      "module": "m8",
+      "title": "完成简短采访\nFaire une courte interview",
+      "criterion": "完成3—5分钟熟悉主题交流，允许确认\nParticiper à un échange de 3 à 5 minutes sur des thèmes familiers, avec clarification si nécessaire."
+    },
+    {
+      "id": "C23",
+      "module": "m8",
+      "title": "采访转入聊天\nÉchanger naturellement",
+      "criterion": "不仅回答，也主动提问或回应信息\nNe pas seulement répondre : poser aussi des questions ou réagir."
+    },
+    {
+      "id": "C24",
+      "module": "m8",
+      "title": "遇到困难继续交流\nPoursuivre malgré un obstacle",
+      "criterion": "缺词或没听懂时主动修补并继续\nEn cas de manque de mots ou d’incompréhension, réparer puis poursuivre l’échange."
+    }
+  ],
+  "initial": [
+    {
+      "id": "initial-1",
+      "number": 1,
+      "title": "拼音学习（第1课）\nPinyin – cours 1"
+    },
+    {
+      "id": "initial-2",
+      "number": 2,
+      "title": "拼音学习（第2课）\nPinyin – cours 2"
+    },
+    {
+      "id": "initial-3",
+      "number": 3,
+      "title": "拼音学习（第3课）\nPinyin – cours 3"
+    },
+    {
+      "id": "initial-4",
+      "number": 4,
+      "title": "拼音学习（第4课）\nPinyin – cours 4"
+    },
+    {
+      "id": "initial-5",
+      "number": 5,
+      "title": "复习：问候与姓名问答\nRévision : salutations et échange de prénoms"
+    }
+  ],
+  "assessments": [
+    {
+      "id": "a0",
+      "title": "起点检查\nBilan de départ",
+      "task": "姓名和问候，新表达另测。\nPrénom et salutations ; nouvelles expressions évaluées séparément."
+    },
+    {
+      "id": "a1",
+      "title": "第4教学周\nSemaine de cours 4",
+      "task": "介绍姓名、国籍、身份和兴趣，完成基本问答\nPrésenter son identité, sa nationalité et ses goûts, puis échanger."
+    },
+    {
+      "id": "a2",
+      "title": "第8教学周\nSemaine de cours 8",
+      "task": "描述一天、时间与频率，听懂相关问题\nDécrire sa journée, les horaires et les habitudes, et comprendre les questions."
+    },
+    {
+      "id": "a3",
+      "title": "第12教学周\nSemaine de cours 12",
+      "task": "介绍重要的人和家乡，主动了解对方\nPrésenter un proche et sa ville, puis s’intéresser à l’autre."
+    },
+    {
+      "id": "a4",
+      "title": "第16教学周\nSemaine de cours 16",
+      "task": "讲一段真实经历，回答时间人物等追问\nRaconter une expérience réelle et répondre sur les personnes et les dates."
+    },
+    {
+      "id": "a5",
+      "title": "第20教学周\nSemaine de cours 20",
+      "task": "回答后补充一个具体原因、感受或例子\nAjouter une raison, un sentiment ou un exemple pertinent."
+    },
+    {
+      "id": "a6",
+      "title": "第24教学周\nSemaine de cours 24",
+      "task": "介绍中文学习体验与北京期待\nParler de son apprentissage du chinois et de ses attentes pour Pékin."
+    },
+    {
+      "id": "a7",
+      "title": "第28教学周\nSemaine de cours 28",
+      "task": "换声音、顺序或问法后仍能交流\nÉchanger malgré un changement de voix, d’ordre ou de formulation."
+    },
+    {
+      "id": "a8",
+      "title": "第32教学周\nSemaine de cours 32",
+      "task": "完成3—5分钟熟悉主题采访，必要时主动确认\nParticiper à une interview de 3 à 5 minutes sur des sujets familiers, avec des demandes de clarification si besoin."
+    }
+  ]
+}
