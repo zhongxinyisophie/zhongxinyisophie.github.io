@@ -54,12 +54,12 @@
         {
           "id": "prep",
           "title": "预习\nPréparation",
-          "content": "听基本介绍，准备三项真实信息\nÉcouter une présentation et préparer trois informations réelles."
+          "content": "复听已学问候、姓名与法国国籍表达，准备三项真实信息\nRéécouter les salutations, le prénom et la nationalité française déjà étudiés ; préparer trois informations réelles."
         },
         {
           "id": "mon",
           "title": "周一课堂\nCours du lundi",
-          "content": "姓名复习与国籍问答\nRevoir les prénoms et demander la nationalité."
+          "content": "巩固我叫、我是法国人；听懂姓名与国籍问题后回答\nRéutiliser « je m’appelle » et « je suis français » ; comprendre les questions sur le prénom et la nationalité, puis répondre."
         },
         {
           "id": "wed",
@@ -1252,27 +1252,64 @@
     {
       "id": "initial-1",
       "number": 1,
-      "title": "拼音学习（第1课）\nPinyin – cours 1"
+      "title": "声调\nLes tons"
     },
     {
       "id": "initial-2",
       "number": 2,
-      "title": "拼音学习（第2课）\nPinyin – cours 2"
+      "title": "声母\nLes initiales"
     },
     {
       "id": "initial-3",
       "number": 3,
-      "title": "拼音学习（第3课）\nPinyin – cours 3"
+      "title": "韵母\nLes finales"
     },
     {
       "id": "initial-4",
       "number": 4,
-      "title": "拼音学习（第4课）\nPinyin – cours 4"
+      "title": "整体认读音节\nLes syllabes à reconnaître globalement"
     },
     {
       "id": "initial-5",
       "number": 5,
-      "title": "复习：问候与姓名问答\nRévision : salutations et échange de prénoms"
+      "title": "基本问候与自我介绍\nSalutations et présentation",
+      "expressions": [
+        {
+          "zh": "你好",
+          "py": "nǐ hǎo",
+          "fr": "bonjour · à une personne"
+        },
+        {
+          "zh": "你们好",
+          "py": "nǐmen hǎo",
+          "fr": "bonjour · à plusieurs personnes"
+        },
+        {
+          "zh": "再见",
+          "py": "zàijiàn",
+          "fr": "au revoir"
+        },
+        {
+          "zh": "谢谢",
+          "py": "xièxie",
+          "fr": "merci"
+        },
+        {
+          "zh": "老师",
+          "py": "lǎoshī",
+          "fr": "professeur"
+        },
+        {
+          "zh": "我叫……",
+          "py": "wǒ jiào…",
+          "fr": "je m’appelle…"
+        },
+        {
+          "zh": "我是法国人",
+          "py": "wǒ shì Fǎguó rén",
+          "fr": "je suis français(e)"
+        }
+      ]
     }
   ],
   "assessments": [
