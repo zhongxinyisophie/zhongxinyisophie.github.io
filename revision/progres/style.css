@@ -4,3 +4,6 @@
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
 
 .history-list label{align-items:flex-start;padding:9px 0}.history-list label>input{margin-top:3px}.history-list label>span{flex:1;min-width:0}.learned-expressions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:16px 0 6px}.learned-expression{display:flex;flex-direction:column;gap:4px;border:1px solid var(--line);border-radius:8px;padding:12px 14px;background:var(--cream)}.learned-expression b{font-size:19px;font-weight:500}.learned-pinyin{color:var(--orange);font-size:13px}.learned-expression small{font-size:12px}@media(max-width:620px){.learned-expressions{grid-template-columns:1fr 1fr}}
+
+
+.current-position{border-left-color:var(--orange);background:#f2e9dd;margin-bottom:25px}.current-position strong{font-size:15px;font-weight:600}.current-tag{font-size:11px;background:var(--soft);color:var(--orange);padding:4px 8px;border-radius:8px;margin-left:8px}
